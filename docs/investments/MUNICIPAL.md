@@ -49,7 +49,7 @@ https://services-eu1.arcgis.com/n7DhHnz2koymALo1/ArcGIS/rest/services/Ozarow_gra
 
 Hash modułu przy tym pobraniu: `6cae9e5c453af601cd302500b470fa16ec3e6f214f2986fa0d470ff8c6dbd5a6`.
 
-Każde odświeżenie odkrywa adres modułu z bieżącego HTML, a w razie potrzeby przegląda ograniczoną kolejkę importów `/assets/` tej samej domeny. Hash nazwy pliku nie jest zamrożony. Moduł musi zawierać oba dokładne endpointy oraz rzeczywistą regułę `.filter(s=>s.properties.Kolejnosc!==-1)`. Zmiana tej reguły lub endpointów jest błędem wymagającym przeglądu, nie cichą zmianą interpretacji danych.
+Każde odświeżenie odkrywa adres modułu z bieżącego HTML, a w razie potrzeby przegląda ograniczoną kolejkę importów `/assets/` tej samej domeny. Hash nazwy pliku nie jest zamrożony. Moduł musi zawierać oba dokładne endpointy oraz rzeczywistą regułę `.filter(s=>s.properties.Kolejnosc!==-1)`. Od października 2026 portal trzyma endpointy w osobnym module konfiguracji (`config-*.js`), a regułę w module danych (`categories-*.js`). Taki podział jest akceptowany tylko wtedy, gdy moduł z regułą importuje ze znalezionego modułu konfiguracji dokładnie tę stałą, która zawiera endpoint warstwy inwestycji, i stosuje regułę do wyniku zapytania `${…}/query` na tej stałej. Adres modułu z regułą trafia do dowodu jako `ruleModuleUrl`. Zmiana tej reguły lub endpointów jest błędem wymagającym przeglądu, nie cichą zmianą interpretacji danych.
 
 Wykluczony teraz OBJECTID **286** ma `Kolejnosc=-1`, tytuł „Wybierz inwestycję na mapie” i brak geometrii. Adapter wyklucza wszystkie takie wpisy zgodnie z frontendem, nie według tytułu i nie według braku punktu. Prawdziwy rekord bez punktu pozostaje na liście z ostrzeżeniem.
 
