@@ -150,26 +150,62 @@ class _Client:
         self.finished = True
 
 
+TEMPLATE_RULE = r'\.filter\([^;]{0,180}\.Kolejnosc\s*!==\s*-1\)'
+
+
+def _split_rule(service_url, service, url, module):
+    """Rule in a module importing the investment layer constant from the service module."""
+    local = re.search(r'([A-Za-z_$][\w$]*)\s*=\s*["\']' + re.escape(LAYER) + r'["\']', service)
+    if local is None:
+        return False
+    exported = {parts[-1] for block in re.findall(r'export\s*\{([^}]*)\}', service)
+                for parts in (name.split() for name in block.split(','))
+                if parts and parts[0] == local.group(1) and (len(parts) == 1 or (len(parts) == 3 and parts[1] == 'as'))}
+    for names, source in re.findall(r'import\s*\{([^}]*)\}\s*from\s*["\']([^"\']+\.js)["\']', module):
+        if urljoin(url, source) != service_url:
+            continue
+        for name in names.split(','):
+            parts = name.split()
+            if len(parts) in (1, 3) and parts[0] in exported and (len(parts) == 1 or parts[1] == 'as'):
+                alias = re.escape(parts[-1])
+                if re.search(r'\$\{' + alias + r'\}/query[^`]{0,120}`[\s\S]{0,400}?' + TEMPLATE_RULE, module):
+                    return True
+    return False
+
+
+def _template_rule(visited):
+    for service_url, service in visited.items():
+        if LAYER not in service or BOUNDARY not in service:
+            continue
+        if re.search(TEMPLATE_RULE, service):
+            return service_url, service_url
+        for url, module in visited.items():
+            if url != service_url and _split_rule(service_url, service, url, module):
+                return service_url, url
+    return None
+
+
 def _discover(client):
     html = client.get(PORTAL, text=True)
     assets = re.findall(r'(?:src|href)=[\"\']([^\"\']+\.js)[\"\']', html)
     queue = sorted(set(urljoin(PORTAL, asset) for asset in assets), key=lambda u: ('dataService' not in u, u))
-    visited = set()
+    visited = {}
     for _ in range(20):
         if not queue:
             break
         url = queue.pop(0)
         if url in visited or urlsplit(url).netloc != urlsplit(PORTAL).netloc or not urlsplit(url).path.startswith('/assets/'):
             continue
-        visited.add(url)
-        module = client.get(url, text=True)
-        if LAYER in module and BOUNDARY in module:
-            _require(re.search(r'\.filter\([^;]{0,180}\.Kolejnosc\s*!==\s*-1\)', module) is not None,
-                     'Niepotwierdzona aktualna reguła wykluczenia szablonu Kolejnosc=-1')
-            client.evidence['discovery'] = {'portalUrl': PORTAL, 'moduleUrl': url, 'investmentLayer': LAYER, 'boundaryLayer': BOUNDARY, 'templateRule': 'Kolejnosc !== -1'}
+        module = visited[url] = client.get(url, text=True)
+        found = _template_rule(visited)
+        if found:
+            client.evidence['discovery'] = {'portalUrl': PORTAL, 'moduleUrl': found[0], 'ruleModuleUrl': found[1],
+                                            'investmentLayer': LAYER, 'boundaryLayer': BOUNDARY, 'templateRule': 'Kolejnosc !== -1'}
             return
         imports = re.findall(r'[\"\']([^\"\']+\.js)[\"\']', module)
         queue.extend(urljoin(url, asset) for asset in imports if 'dataService' in asset or asset.startswith('./'))
+    _require(not any(LAYER in m and BOUNDARY in m for m in visited.values()),
+             'Niepotwierdzona aktualna reguła wykluczenia szablonu Kolejnosc=-1')
     raise SourceError('Nie odkryto aktualnego modułu usług i reguły szablonu')
 
 

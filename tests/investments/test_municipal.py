@@ -17,6 +17,27 @@ FIXTURE = json.loads((Path(__file__).parent / 'fixtures/municipal_observed.json'
 RECORD_KEYS = set('id sourceId sourceRecordId sourceUrl title recordType investor investorName category locality address status statusAsOf summary years costs dates geometries parcelIds events facts relatedIds warnings fetchedAt sourceUpdatedAt'.split())
 SOURCE_KEYS = set('id name url fetchedAt sourceUpdatedAt status coverage recordCount warnings reuse'.split())
 
+SPLIT_PORTAL = {'split-modules', 'split-wrong-layer', 'split-unimported'}
+SERVICES = 'https://services-eu1.arcgis.com/n7DhHnz2koymALo1/ArcGIS/rest/services/'
+
+
+def split_portal_asset(url, mutation):
+    """Observed 2026-10 portal layout: layer constants and the template rule in separate modules."""
+    if url.endswith('/'):
+        return ('<script type="module" src="/assets/main-x.js"></script>'
+                '<link rel="modulepreload" href="/assets/config-x.js"><link rel="modulepreload" href="/assets/categories-x.js">')
+    if url.endswith('/config-x.js'):
+        return (f'const w="{SERVICES}Ozarow_Maz_inwestycje_/FeatureServer/17",m="{SERVICES}Ozarow_granica/FeatureServer/14";'
+                'export{m as B,w as h};')
+    if url.endswith('/categories-x.js'):
+        layer = 'B' if mutation == 'split-wrong-layer' else 'h'
+        source = './other-x.js' if mutation == 'split-unimported' else './config-x.js'
+        return (f'import{{{layer} as y}}from"{source}";let n=null;async function C(){{if(n)return n;'
+                'const t=`${y}/query?where=1%3D1&outFields=*&f=geojson`,e=await fetch(t);const r=await e.json();'
+                'return n=_(r.features||[]).filter(c=>c.properties.Kolejnosc!==-1),n}export{C as a};')
+    return 'export{};'
+
+
 class ObservedServer:
     def __init__(self, mutation=None):
         self.data = copy.deepcopy(FIXTURE)
@@ -33,6 +54,9 @@ class ObservedServer:
         response = requests.Response()
         response.status_code = 200
         response.url = url
+        if 'gminneinwestycje.pl' in url and self.mutation in SPLIT_PORTAL:
+            response._content = split_portal_asset(url, self.mutation).encode()
+            return response
         if 'gminneinwestycje.pl' in url:
             text = '<script type="module" src="/assets/dataService-observed.js"></script>' if url.endswith('/') else self.data['module']
             if self.mutation == 'template-rule':
@@ -146,13 +170,19 @@ class MunicipalTests(unittest.TestCase):
                 self.assertIn(' ASC', params['orderByFields'])
                 self.assertNotIn('*', params['outFields'])
     def test_reject_corruption_without_prior(self):
-        for mutation in ['count','schema','duplicate','truncated','last-transfer','missing-field','cost','geometry','arcgis-error','template-rule','timeout','malformed-metadata']:
+        for mutation in ['count','schema','duplicate','truncated','last-transfer','missing-field','cost','geometry','arcgis-error','template-rule','split-wrong-layer','split-unimported','timeout','malformed-metadata']:
             with self.subTest(mutation=mutation):
                 result, _ = self.run_collect(mutation)
                 self.assert_contract(result)
                 self.assertEqual(result['records'], [])
                 self.assertEqual(result['sources'][0]['status'], 'unavailable')
                 self.assertTrue(result['warnings'])
+    def test_split_portal_modules_confirm_template_rule(self):
+        fresh, _ = self.run_collect()
+        result, _ = self.run_collect('split-modules')
+        self.assert_contract(result)
+        self.assertEqual(result['sources'][0]['status'], 'fresh')
+        self.assertEqual([r['id'] for r in result['records']], [r['id'] for r in fresh['records']])
     def test_retains_only_verified_municipal_prior(self):
         fresh, _ = self.run_collect()
         prior = {'schemaVersion': 1, 'generatedAt': fresh['sources'][0]['fetchedAt'], **fresh, 'counts': {}}
