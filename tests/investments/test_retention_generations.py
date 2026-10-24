@@ -40,6 +40,8 @@ class RetentionGenerationTests(unittest.TestCase):
         generation['records'].sort(key=lambda r: r['id'])
         source = next(s for s in generation['sources'] if s['id'] == municipal.SOURCE_ID)
         source['recordCount'] = expected_count
+        # A changed generation is a fresh fetch even when the baseline retained this source.
+        source['status'] = 'fresh'
         generation['counts'] = counts_for(generation['records'], generation['sources'])
         validate_dataset(generation, prior=base)
         self.assertEqual(generation['counts']['bySource'][municipal.SOURCE_ID], expected_count)
