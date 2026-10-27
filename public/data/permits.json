@@ -1,13 +1,43 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-26T09:10:51.023622Z",
+  "generatedAt": "2026-10-27T09:13:20.322766Z",
   "source": {
     "name": "GUNB RWDZ",
     "url": "https://wyszukiwarka.gunb.gov.pl/pobranie.html",
-    "downloadedAt": "2026-10-26T09:09:04.149416Z",
-    "coverage": "Cała gmina Ożarów Mazowiecki (miasto i obszar wiejski): daty wpływu 2025-01-01–2026-10-26; faktyczne wpisy 2025-01-09–2026-10-06. Wnioski/decyzje: CSV mazowieckie; zgłoszenia: CSV krajowy od 2022. Obrysy ze stanu ULDK podczas pobrania (cache do 30 dni), nie historyczne."
+    "downloadedAt": "2026-10-27T09:10:31.759527Z",
+    "coverage": "Cała gmina Ożarów Mazowiecki (miasto i obszar wiejski): daty wpływu 2025-01-01–2026-10-27; faktyczne wpisy 2025-01-09–2026-10-08. Wnioski/decyzje: CSV mazowieckie; zgłoszenia: CSV krajowy od 2022. Obrysy ze stanu ULDK podczas pobrania (cache do 30 dni), nie historyczne."
   },
   "records": [
+    {
+      "id": "notification:ST-MZ-OZ/ZGŁOSZENIE/7365/2026",
+      "kind": "notification",
+      "title": "Budowa — infrastruktura wodno-kanalizacyjna",
+      "description": "Bezpieczny skrót rodzaju inwestycji. Swobodny opis GUNB pominięto ze względu na możliwość występowania danych osobowych.",
+      "applicationDate": "2026-10-08",
+      "decisionDate": null,
+      "decisionNumber": null,
+      "status": "Brak sprzeciwu",
+      "locality": "Jawczyce",
+      "street": "",
+      "municipality": "Ożarów Mazowiecki (miasto i obszar wiejski)",
+      "cadastralRegion": "143206_5.0005",
+      "parcelNumbers": [
+        "193",
+        "97/2",
+        "97/4",
+        "98/28"
+      ],
+      "parcelIds": [
+        "143206_5.0005.193",
+        "143206_5.0005.97/2",
+        "143206_5.0005.97/4",
+        "143206_5.0005.98/28"
+      ],
+      "category": "XXVI",
+      "sourceUrl": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_zgloszenia_2022_up.zip",
+      "geometryStatus": "matched",
+      "geometryNote": "Potwierdzone obrysy ULDK: 4/4."
+    },
     {
       "id": "notification:ST-MZ-OZ/ZGŁOSZENIE/7310/2026",
       "kind": "notification",
@@ -162,6 +192,30 @@
       "sourceUrl": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_zgloszenia_2022_up.zip",
       "geometryStatus": "matched",
       "geometryNote": "Potwierdzone obrysy ULDK: 4/4."
+    },
+    {
+      "id": "permit:ST-MZ-OZ/WNIOSEK/28902/2026",
+      "kind": "decision",
+      "title": "Budowa — instalacja fotowoltaiczna",
+      "description": "Bezpieczny skrót rodzaju inwestycji. Swobodny opis GUNB pominięto ze względu na możliwość występowania danych osobowych.",
+      "applicationDate": "2026-09-17",
+      "decisionDate": "2026-10-26",
+      "decisionNumber": "1124/2026",
+      "status": "Decyzja odnotowana — wynik nieudostępniony w CSV",
+      "locality": "Bronisze",
+      "street": "",
+      "municipality": "Ożarów Mazowiecki (miasto i obszar wiejski)",
+      "cadastralRegion": "Brak wiarygodnego obrębu w CSV",
+      "parcelNumbers": [
+        "1/12",
+        "1/15",
+        "1/7"
+      ],
+      "parcelIds": [],
+      "category": "VIII",
+      "sourceUrl": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_mazowieckie.zip",
+      "geometryStatus": "unresolved",
+      "geometryNote": "Potwierdzone obrysy ULDK: 0/3. niejednoznaczne lub nieprawidłowe odwołania w CSV: 3."
     },
     {
       "id": "permit:ST-MZ-OZ/WNIOSEK/28664/2026",
@@ -474,6 +528,44 @@
       "sourceUrl": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_mazowieckie.zip",
       "geometryStatus": "unresolved",
       "geometryNote": "Potwierdzone obrysy ULDK: 0/1. Brak wiarygodnej odpowiedzi ULDK: 1 (możliwy podział działki, błąd źródła lub usługi)."
+    },
+    {
+      "id": "notification:ST-MZ-OZ/ZGŁOSZENIE/7692/2026",
+      "kind": "notification",
+      "title": "Budowa — obiekt budowlany",
+      "description": "Bezpieczny skrót rodzaju inwestycji. Swobodny opis GUNB pominięto ze względu na możliwość występowania danych osobowych.",
+      "applicationDate": "2026-09-02",
+      "decisionDate": null,
+      "decisionNumber": null,
+      "status": "Brak sprzeciwu",
+      "locality": "Leszno",
+      "street": "",
+      "municipality": "Ożarów Mazowiecki (miasto i obszar wiejski)",
+      "cadastralRegion": "143206_5.0012",
+      "parcelNumbers": [
+        "1/20",
+        "102/1",
+        "151",
+        "153/2",
+        "154/8",
+        "155/6",
+        "2/1",
+        "293"
+      ],
+      "parcelIds": [
+        "143206_5.0012.1/20",
+        "143206_5.0012.102/1",
+        "143206_5.0012.151",
+        "143206_5.0012.153/2",
+        "143206_5.0012.154/8",
+        "143206_5.0012.155/6",
+        "143206_5.0012.2/1",
+        "143206_5.0012.293"
+      ],
+      "category": "XXVI",
+      "sourceUrl": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_zgloszenia_2022_up.zip",
+      "geometryStatus": "matched",
+      "geometryNote": "Potwierdzone obrysy ULDK: 8/8."
     },
     {
       "id": "permit:ST-MZ-OZ/WNIOSEK/27080/2026",
