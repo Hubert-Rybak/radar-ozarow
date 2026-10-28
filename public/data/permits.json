@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T09:13:20.322766Z",
+  "generatedAt": "2026-10-28T09:53:47.599854Z",
   "source": {
     "name": "GUNB RWDZ",
     "url": "https://wyszukiwarka.gunb.gov.pl/pobranie.html",
-    "downloadedAt": "2026-10-27T09:10:31.759527Z",
-    "coverage": "Cała gmina Ożarów Mazowiecki (miasto i obszar wiejski): daty wpływu 2025-01-01–2026-10-27; faktyczne wpisy 2025-01-09–2026-10-08. Wnioski/decyzje: CSV mazowieckie; zgłoszenia: CSV krajowy od 2022. Obrysy ze stanu ULDK podczas pobrania (cache do 30 dni), nie historyczne."
+    "downloadedAt": "2026-10-28T09:51:50.035145Z",
+    "coverage": "Cała gmina Ożarów Mazowiecki (miasto i obszar wiejski): daty wpływu 2025-01-01–2026-10-28; faktyczne wpisy 2025-01-09–2026-10-08. Wnioski/decyzje: CSV mazowieckie; zgłoszenia: CSV krajowy od 2022. Obrysy ze stanu ULDK podczas pobrania (cache do 30 dni), nie historyczne."
   },
   "records": [
     {
@@ -1324,6 +1324,30 @@
       "sourceUrl": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_mazowieckie.zip",
       "geometryStatus": "matched",
       "geometryNote": "Potwierdzone obrysy ULDK: 2/2."
+    },
+    {
+      "id": "permit:ST-MZ-OZ/WNIOSEK/21817/2026",
+      "kind": "decision",
+      "title": "Budowa — budynek mieszkalny jednorodzinny",
+      "description": "Bezpieczny skrót rodzaju inwestycji. Swobodny opis GUNB pominięto ze względu na możliwość występowania danych osobowych.",
+      "applicationDate": "2026-07-13",
+      "decisionDate": "2026-10-26",
+      "decisionNumber": "1126/2026",
+      "status": "Decyzja odnotowana — wynik nieudostępniony w CSV",
+      "locality": "Ożarów Mazowiecki",
+      "street": "",
+      "municipality": "Ożarów Mazowiecki (miasto i obszar wiejski)",
+      "cadastralRegion": "143206_4.0001",
+      "parcelNumbers": [
+        "219/3"
+      ],
+      "parcelIds": [
+        "143206_4.0001.219/3"
+      ],
+      "category": "I",
+      "sourceUrl": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_mazowieckie.zip",
+      "geometryStatus": "matched",
+      "geometryNote": "Potwierdzone obrysy ULDK: 1/1."
     },
     {
       "id": "permit:ST-MZ-OZ/WNIOSEK/21272/2026",
