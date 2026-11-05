@@ -7,7 +7,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
 WORKFLOWS = ROOT / ".github/workflows"
-DATA = {"public/data/permits.json", "public/data/parcels.geojson", "public/data/metadata.json", "public/data/investments.json"}
+DATA = {"public/data/permits.json", "public/data/parcels.geojson", "public/data/metadata.json", "public/data/investments.json", "public/data/changes.json"}
 MAIN = "github.ref == 'refs/heads/main'"
 PAGES = "vars.PAGES_ENABLED == 'true'"
 
@@ -50,6 +50,9 @@ class WorkflowContracts(unittest.TestCase):
         self.assertIn('--prior "$RUNNER_TEMP/prior-investments.json"', command)
         self.assertIn('--cache "$RUNNER_TEMP/investment-private-cache"', command)
         self.assertIn('--output "$RUNNER_TEMP/data-candidate"', command)
+        # The change log compares against the still-published generation, after both imports.
+        self.assertLess(command.index("python scripts/import_investments.py"), command.index("python scripts/build_changes.py"))
+        self.assertIn('--previous public/data --output "$RUNNER_TEMP/data-candidate" --date "$until"', command)
         self.assertNotIn("continue-on-error", str(steps))
         validator = next(s["run"] for s in steps if s.get("id") == "validate")
         self.assertIn("python scripts/import_investments.py --validate public/data/investments.json", validator)

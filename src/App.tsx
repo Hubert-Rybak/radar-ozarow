@@ -8,6 +8,7 @@ import { investmentDefaults, mapStageColors, mapStageLabels, recordMapStage, typ
 import { centerOf, distanceMeters, nearest, type LatLng } from "./geo";
 import { readHash, shareUrl, writeHash, type Mode } from "./hash";
 import { useIsMobile } from "./ui";
+import ChangesDialog from "./ChangesDialog";
 import type { RecordKind } from "./types";
 
 type Sheet = "peek" | "half" | "full";
@@ -128,6 +129,7 @@ export default function App() {
   const [sheet, setSheet] = useState<Sheet>("peek");
   const [dragHeight, setDragHeight] = useState<number | null>(null);
   const [about, setAbout] = useState(false);
+  const [changes, setChanges] = useState(false);
   const [legendOpen, setLegendOpen] = useState(false);
   const [fitToken, setFitToken] = useState(0);
   const [fitAllToken, setFitAllToken] = useState(0);
@@ -142,6 +144,7 @@ export default function App() {
   now.current = { selection, sheet };
   const restore = useRef<{ origin: "list" | "map"; id: string } | null>(null);
   const aboutOpener = useRef<HTMLElement | null>(null);
+  const changesOpener = useRef<HTMLElement | null>(null);
   const overview = useRef<HTMLButtonElement>(null);
   const panelBody = useRef<HTMLDivElement>(null);
 
@@ -290,11 +293,12 @@ export default function App() {
     const onKey = (event: KeyboardEvent) => {
       if (event.key !== "Escape") return;
       if (about) { event.preventDefault(); setAbout(false); aboutOpener.current?.focus(); }
+      else if (changes) { event.preventDefault(); setChanges(false); changesOpener.current?.focus(); }
       else if (selection) { event.preventDefault(); close(); }
     };
     document.addEventListener("keydown", onKey);
     return () => document.removeEventListener("keydown", onKey);
-  }, [about, selection, close]);
+  }, [about, changes, selection, close]);
 
   // Shareable links: apply the hash once its dataset is loaded, then mirror the state.
   const hashApplied = useRef(false);
@@ -425,7 +429,10 @@ export default function App() {
           <span className="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32"><circle cx="16" cy="16" r="11" /><circle cx="16" cy="16" r="5" /><path d="M16 16 25 7" /></svg></span>
           <div><h1>Radar Ożarów</h1><p>Budowy i inwestycje w gminie Ożarów Mazowiecki</p></div>
         </div>
-        <button type="button" className="header-link" onClick={openAbout}>O danych</button>
+        <div className="header-actions">
+          <button type="button" className="header-link" aria-haspopup="dialog" onClick={event => { changesOpener.current = event.currentTarget; setChanges(true); }}>Lista zmian</button>
+          <button type="button" className="header-link" onClick={openAbout}>O danych</button>
+        </div>
       </header>
       <div className="sr-only" role="status" aria-live="polite" data-testid="data-status"
         data-loading={permits.loading} data-state={permits.loading ? "loading" : permits.data.error ? "error" : "ready"}
@@ -556,6 +563,9 @@ export default function App() {
           </div>
         </aside>
       </main>
+      {changes && <ChangesDialog permits={permits} investments={investments}
+        onClose={() => { setChanges(false); changesOpener.current?.focus(); }}
+        onPick={(layer, id) => { setChanges(false); pick(layer, id); }} />}
       {about && <AboutDialog permits={permits} investments={investments} onClose={() => { setAbout(false); aboutOpener.current?.focus(); }} />}
     </div>
   );

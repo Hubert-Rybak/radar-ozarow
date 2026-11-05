@@ -31,6 +31,7 @@ class DistributionSafety(unittest.TestCase):
             "parcels.geojson": {"type": "FeatureCollection", "features": []},
             "metadata.json": {"recordCount": 0, "generatedAt": "2026-01-01T00:00:00Z"},
             "investments.json": {"testOnly": "distribution byte contract fixture"},
+            "changes.json": {"schemaVersion": 1, "since": "2026-01-01", "days": []},
         }.items():
             text = json.dumps(document)
             (self.public / filename).write_text(text)
@@ -46,6 +47,11 @@ class DistributionSafety(unittest.TestCase):
 
     def test_rejects_investment_snapshot_mismatch(self):
         (self.dist / "data/investments.json").write_text('{"wrongGeneration": true}')
+        with self.assertRaises(ValueError):
+            self.module.validate(self.dist, self.public)
+
+    def test_rejects_missing_change_log(self):
+        (self.dist / "data/changes.json").unlink()
         with self.assertRaises(ValueError):
             self.module.validate(self.dist, self.public)
 

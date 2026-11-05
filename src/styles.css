@@ -260,12 +260,32 @@ button:focus-visible, a:focus-visible, summary:focus-visible, input:focus-visibl
 .about-sources { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
 .about-sources article { border: 1px solid var(--line); border-radius: 12px; padding: 10px 12px; font-size: 14px; display: flex; flex-direction: column; gap: 4px; }
 .about-sources h4 { margin: 0; font-size: 14px; }
+.header-actions { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+.change-days { display: flex; flex-direction: column; gap: 20px; list-style: none; padding: 0; }
+.change-day + .change-day { padding-top: 16px; border-top: 1px solid var(--line-soft); }
+.change-day h3 { font-size: 17px; }
+.change-day h3::first-letter { text-transform: uppercase; }
+.change-day h4 { margin: 10px 0 4px; font-size: 13px; font-weight: 600; text-transform: uppercase; letter-spacing: .4px; color: var(--muted); }
+.change-list { list-style: none; padding: 0; display: flex; flex-direction: column; }
+.change-row { width: 100%; display: flex; align-items: flex-start; gap: 10px; min-height: 44px; padding: 8px 10px; border: 0; border-radius: 10px; background: transparent; text-align: left; font: inherit; color: inherit; }
+.change-row .legend-mark { margin-top: 5px; }
+button.change-row:hover { background: var(--accent-soft); }
+button.change-row:disabled { opacity: .6; }
+.change-row.gone { opacity: .7; }
+.change-main { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.change-title { font-size: 15px; font-weight: 600; line-height: 1.3; color: var(--ink); overflow-wrap: anywhere; }
+button.change-row .change-title { color: var(--accent-ink); }
+.change-meta { font-size: 13px; color: var(--muted); }
 .coverage-note { padding: 10px 12px; border-radius: 10px; background: #FFF6E4; color: #5E4417; font-size: 14px; }
 
 /* Phone: full-screen map + bottom sheet */
 @media (max-width: 720px) {
   .masthead { padding: 0 8px 0 12px; }
   .masthead p { display: none; }
+  .masthead h1 { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .brand > div { min-width: 0; }
+  .header-actions { gap: 6px; }
+  .header-link { padding: 0 10px; font-size: 13px; }
   .map-controls { top: 92px; right: 8px; }
   .layer-body { width: 230px; }
   .panel { top: auto; left: 0; right: 0; bottom: 0; width: auto; border-radius: 18px 18px 0 0; transition: height .22s ease; padding-bottom: env(safe-area-inset-bottom); }
@@ -287,4 +307,11 @@ button:focus-visible, a:focus-visible, summary:focus-visible, input:focus-visibl
   .about-sources { grid-template-columns: 1fr; }
   .filter-grid { grid-template-columns: 1fr; }
   .detail-title { font-size: 22px; }
+}
+@media (max-width: 380px) {
+  .masthead { padding: 0 6px 0 10px; gap: 8px; }
+  .brand { gap: 8px; }
+  .masthead h1 { font-size: 16px; }
+  .header-actions { gap: 4px; }
+  .header-link { padding: 0 9px; }
 }

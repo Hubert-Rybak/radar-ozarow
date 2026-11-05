@@ -8,7 +8,7 @@ import unittest
 import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
-FILES = ('permits.json', 'parcels.geojson', 'metadata.json', 'investments.json')
+FILES = ('permits.json', 'parcels.geojson', 'metadata.json', 'investments.json', 'changes.json')
 
 
 class ImportStaging(unittest.TestCase):
@@ -48,6 +48,12 @@ elif args[0] == 'scripts/import_investments.py':
     assert (output/'permits.json').read_text() == 'new:permits.json'
     if os.environ.get('FAIL_INVESTMENT') == 'true': sys.exit(23)
     (output/'investments.json').write_text('new:investments.json')
+elif args[0] == 'scripts/build_changes.py':
+    previous=Path(args[args.index('--previous')+1])
+    assert (previous/'changes.json').read_text() == 'old:changes.json', 'Published change log must be the baseline'
+    assert (output/'investments.json').read_text() == 'new:investments.json', 'Change log must follow both imports'
+    assert args[args.index('--date')+1], 'Import day required'
+    (output/'changes.json').write_text('new:changes.json')
 else:
     raise AssertionError('Unexpected command')
 ''')

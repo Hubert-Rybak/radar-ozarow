@@ -7,6 +7,7 @@ Polskojęzyczny radar inwestycji gminnych, publicznych i prywatnych oraz mapa pu
 - Wpisy wniosków, odnotowanych decyzji i zgłoszeń, z opisem inwestycji, datami, adresem, odwołaniami do działek i źródłami.
 - Rzeczywiste obrysy działek z publicznej usługi **ULDK GUGiK**, weryfikowane po pełnym identyfikatorze i obrębie — nie geokodowane punkty ani sztuczne prostokąty.
 - Lista, mapa, wyszukiwanie, filtry i szczegóły oraz eksport wyników.
+- **Lista zmian** (przycisk w nagłówku): nowe wpisy budowlane i rekordy inwestycji pogrupowane według dnia, w którym po raz pierwszy pojawiły się w codziennym imporcie (`public/data/changes.json`, generowane przez `scripts/build_changes.py`).
 - Jawne statusy pokrycia geometrią: pełne, częściowe i nierozwiązane; zakres i czas pobrania są zapisane w metadanych.
 
 **Odnotowana decyzja nie oznacza pozytywnego pozwolenia.** CSV nie podaje wyniku rozstrzygnięcia. Zgłoszenie nie jest pozwoleniem. Brak wpisów typu „sam wniosek” w eksporcie nie dowodzi braku nierozpatrzonych wniosków w gminie.

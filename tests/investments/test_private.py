@@ -1,5 +1,6 @@
 """Offline behavior gates for the private contribution (no network)."""
 import copy
+from datetime import datetime, timedelta, timezone
 import importlib
 import io
 import json
@@ -119,11 +120,14 @@ class PrivateTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as tmp:
             f = self.p.Fetcher(Path(tmp))
             url = 'https://example.org/parcel'
-            f.store(url, POLYGON.encode(), STAMP)
+            # Relative to now: a fixed date ages past the TTL and turns this into a live download.
+            stamp = (datetime.now(timezone.utc) - timedelta(days=1)).replace(microsecond=0).isoformat()
+            f.store(url, POLYGON.encode(), stamp)
             b,t,h = f.get(url, ttl_days=30)
-            self.assertEqual(t,STAMP)
+            self.assertEqual(t,stamp)
             self.assertEqual(b,POLYGON.encode())
             self.assertEqual(len(h),64)
+            self.assertEqual(f.stats['reused'],1)
 
     def test_collect_independent_failures_returns_exact_api(self):
         with tempfile.TemporaryDirectory() as tmp, patch.object(self.p, 'collect_environment', side_effect=ValueError('schema')), patch.object(self.p, 'collect_private', side_effect=ValueError('schema')), patch.object(self.p, 'collect_regional', side_effect=ValueError('schema')), patch.object(self.p, 'collect_eu', side_effect=ValueError('schema')):

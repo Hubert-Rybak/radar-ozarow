@@ -10,7 +10,7 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[2]
 ALLOWED = {'public/data/permits.json','public/data/parcels.geojson','public/data/metadata.json',
-           'public/data/investments.json','scripts/uldk-cache.json'}
+           'public/data/investments.json','public/data/changes.json','scripts/uldk-cache.json'}
 
 
 class SnapshotAllowlist(unittest.TestCase):
@@ -33,7 +33,7 @@ class SnapshotAllowlist(unittest.TestCase):
     def execute(self):
         return subprocess.run([sys.executable,'-c',self.code],cwd=self.root,text=True,capture_output=True)
 
-    def test_accepts_exact_four_artifacts_and_evidence_initial_generation(self):
+    def test_accepts_exact_five_artifacts_and_evidence_initial_generation(self):
         for path in ALLOWED: self.write(path)
         result=self.execute()
         self.assertEqual(result.returncode,0,result.stderr)

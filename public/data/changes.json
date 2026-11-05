@@ -1,0 +1,606 @@
+{
+ "schemaVersion": 1,
+ "generatedAt": "2026-11-04T21:14:59Z",
+ "since": "2026-10-03",
+ "days": [
+  {
+   "date": "2026-10-31",
+   "permits": [],
+   "investments": [
+    {
+     "id": "municipal-news:57181",
+     "title": "ROZBUDOWA SKRZYŻOWAŃ DK92 Z DROGAMI GMINNYMI",
+     "recordType": "news",
+     "sourceId": "municipal-news"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-30",
+   "permits": [
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/16330/2026",
+     "title": "Zamierzenie — budynek mieszkalny jednorodzinny",
+     "kind": "decision",
+     "locality": "Ożarów Mazowiecki"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/12908/2026",
+     "title": "Budowa — budynek mieszkalny jednorodzinny",
+     "kind": "decision",
+     "locality": "Ożarów Mazowiecki"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/16325/2026",
+     "title": "Rozbiórka — zamierzenie budowlane",
+     "kind": "decision",
+     "locality": "Macierzysz"
+    }
+   ],
+   "investments": [
+    {
+     "id": "municipal-news:57100",
+     "title": "Budowa ujęcia na SUW Szeligi",
+     "recordType": "news",
+     "sourceId": "municipal-news"
+    },
+    {
+     "id": "municipal-news:57129",
+     "title": "Awaryjna naprawa sieci wodociągowej – zamknięcie odcinka ul. Dworcowej w Płochocinie w dniu 30.10",
+     "recordType": "news",
+     "sourceId": "municipal-news"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-28",
+   "permits": [
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/21817/2026",
+     "title": "Budowa — budynek mieszkalny jednorodzinny",
+     "kind": "decision",
+     "locality": "Ożarów Mazowiecki"
+    }
+   ],
+   "investments": []
+  },
+  {
+   "date": "2026-10-27",
+   "permits": [
+    {
+     "id": "notification:ST-MZ-OZ/ZGŁOSZENIE/7365/2026",
+     "title": "Budowa — infrastruktura wodno-kanalizacyjna",
+     "kind": "notification",
+     "locality": "Jawczyce"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/28902/2026",
+     "title": "Budowa — instalacja fotowoltaiczna",
+     "kind": "decision",
+     "locality": "Bronisze"
+    },
+    {
+     "id": "notification:ST-MZ-OZ/ZGŁOSZENIE/7692/2026",
+     "title": "Budowa — obiekt budowlany",
+     "kind": "notification",
+     "locality": "Leszno"
+    }
+   ],
+   "investments": []
+  },
+  {
+   "date": "2026-10-26",
+   "permits": [],
+   "investments": [
+    {
+     "id": "procurement:bip-menu-23843",
+     "title": "RZP.271.50.2026 \"Powtórzenie podobnych robót budowlanych objętych Umową Nr RZP.272.9.27.2026 z dnia 30 kwietnia 2026 r., pn. „Rozbudowa drogi gminnej – ul. Parkowej na odcinku od ul. Umiastowskiej do ul. Lipowej wraz z przebudową na odcinku od ul. Lipowej do ul. Kierbedzia w Ożarowie Mazowieckim\"",
+     "recordType": "procurement",
+     "sourceId": "procurement"
+    },
+    {
+     "id": "procurement:bip-menu-23845",
+     "title": "RZP.271.52.2026 \"Dowóz dzieci niepełnosprawnych z terenu gminy Ożarów Mazowiecki w roku szkolnym 2026/2027 w celu realizacji obowiązku nauki\"",
+     "recordType": "procurement",
+     "sourceId": "procurement"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-25",
+   "permits": [
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/28553/2026",
+     "title": "Budowa — budynek mieszkalny jednorodzinny",
+     "kind": "decision",
+     "locality": "Ożarów Mazowiecki"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/26244/2026",
+     "title": "Budowa — obiekt budowlany",
+     "kind": "decision",
+     "locality": "Bronisze"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/25661/2026",
+     "title": "Budowa — budynek mieszkalny jednorodzinny",
+     "kind": "decision",
+     "locality": "Płochocin"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/25658/2026",
+     "title": "Budowa — budynek mieszkalny jednorodzinny",
+     "kind": "decision",
+     "locality": "Ożarów Mazowiecki"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/24413/2026",
+     "title": "Instalacja — infrastruktura wodno-kanalizacyjna",
+     "kind": "decision",
+     "locality": "Ożarów Mazowiecki"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/21031/2026",
+     "title": "Budowa — budynek mieszkalny jednorodzinny",
+     "kind": "decision",
+     "locality": "Pogroszew"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/18836/2026",
+     "title": "Budowa — obiekt budowlany",
+     "kind": "decision",
+     "locality": "Płochocin"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/18163/2026",
+     "title": "Przebudowa — obiekt budowlany",
+     "kind": "decision",
+     "locality": "Ożarów Mazowiecki"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/17727/2026",
+     "title": "Budowa — budynek mieszkalny jednorodzinny",
+     "kind": "decision",
+     "locality": "Ożarów Mazowiecki"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/12844/2026",
+     "title": "Budowa — budynek mieszkalny jednorodzinny",
+     "kind": "decision",
+     "locality": "Ożarów Mazowiecki"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/10815/2026",
+     "title": "Budowa — budynek mieszkalny jednorodzinny",
+     "kind": "decision",
+     "locality": "Ożarów Mazowiecki"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/6151/2026",
+     "title": "Budowa — obiekt budowlany",
+     "kind": "decision",
+     "locality": "Pogroszew"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/1173/2026",
+     "title": "Budowa — budynek mieszkalny jednorodzinny",
+     "kind": "decision",
+     "locality": "Płochocin"
+    }
+   ],
+   "investments": [
+    {
+     "id": "municipal-map:448",
+     "title": "Modernizacja nawierzchni ulicy Reymonta w Ożarowie Mazowieckim",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:450",
+     "title": "Modernizacja nawierzchni ulicy Wiosennej w Święcicach",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:451",
+     "title": "Modernizacja nawierzchni kortów tenisowych",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:452",
+     "title": "Budowa Skate Parku przy Szkole Podstawowej w Płochocinie",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:453",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:454",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:455",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:456",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:457",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:458",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:459",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:460",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:461",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:462",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:463",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:464",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:465",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:466",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:467",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:468",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:469",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:470",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:471",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:472",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:473",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:474",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:475",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:476",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:477",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:478",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:479",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:480",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:481",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:482",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:483",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:484",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-map:485",
+     "title": "Wymiana opraw oświetleniowych z sodowymi źródłami światła na oprawy LED na terenie Gminy Ożarów Mazowiecki",
+     "recordType": "project",
+     "sourceId": "municipal-map"
+    },
+    {
+     "id": "municipal-news:56971",
+     "title": "Przebudowa zatoki autobusowej na ulicy Poniatowskiego",
+     "recordType": "news",
+     "sourceId": "municipal-news"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-19",
+   "permits": [],
+   "investments": [
+    {
+     "id": "procurement:bip-menu-23842",
+     "title": "RZP.271.44.2026 \"Powtórzenie podobnych robót objętych Umową Nr RZP.272.2.20.2025 z dnia 9 maja 2025 r., pn. „Budowa sieci kanalizacji sanitarnej wraz z dwoma sieciowymi pompowniami ścieków i wewnętrznymi liniami zasilającymi oraz przebudowa sieci wodociągowej w miejscowości Mory, gmina Ożarów Mazowiecki\"",
+     "recordType": "procurement",
+     "sourceId": "procurement"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-16",
+   "permits": [],
+   "investments": [
+    {
+     "id": "municipal-news:56827",
+     "title": "Plac zabaw w Józefowie w nowej odsłonie",
+     "recordType": "news",
+     "sourceId": "municipal-news"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-15",
+   "permits": [
+    {
+     "id": "notification:ST-MZ-OZ/ZGŁOSZENIE/7340/2026",
+     "title": "Budowa — infrastruktura wodno-kanalizacyjna",
+     "kind": "notification",
+     "locality": "Kaputy"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/15602/2026",
+     "title": "Budowa — obiekt magazynowy lub przemysłowy",
+     "kind": "decision",
+     "locality": "Szeligi"
+    }
+   ],
+   "investments": []
+  },
+  {
+   "date": "2026-10-13",
+   "permits": [
+    {
+     "id": "notification:ST-MZ-OZ/ZGŁOSZENIE/7310/2026",
+     "title": "Zamierzenie — infrastruktura elektroenergetyczna",
+     "kind": "notification",
+     "locality": "Strzykuły"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/27406/2026",
+     "title": "Budowa — budynek mieszkalny jednorodzinny",
+     "kind": "decision",
+     "locality": "Święcice"
+    }
+   ],
+   "investments": [
+    {
+     "id": "municipal-news:56734",
+     "title": "Rozbudowa skrzyżowań DK92 z drogami gminnymi",
+     "recordType": "news",
+     "sourceId": "municipal-news"
+    },
+    {
+     "id": "procurement:ocds-148610-cb643442-d960-480a-b02f-d65dc80faf54",
+     "title": "Przygotowanie dokumentacji projektowej ulicy Wygodnej w Kaputach oraz odcinka ulicy Kapuckiej wraz ze skrzyżowaniem z ulicą Sochaczewską",
+     "recordType": "procurement",
+     "sourceId": "procurement"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-12",
+   "permits": [],
+   "investments": [
+    {
+     "id": "procurement:ocds-148610-ce2b7928-52f1-4606-8493-06382ff7f310",
+     "title": "Świadczenie usług ochrony mienia budynków należących do Gminy Ożarów Mazowiecki",
+     "recordType": "procurement",
+     "sourceId": "procurement"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-10",
+   "permits": [
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/26539/2026",
+     "title": "Budowa — infrastruktura gazowa",
+     "kind": "decision",
+     "locality": "Ożarów Mazowiecki"
+    }
+   ],
+   "investments": [
+    {
+     "id": "municipal-news:56676",
+     "title": "Modernizacja dróg gminnych",
+     "recordType": "news",
+     "sourceId": "municipal-news"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-09",
+   "permits": [
+    {
+     "id": "notification:ST-MZ-OZ/ZGŁOSZENIE/7065/2026",
+     "title": "Budowa — infrastruktura wodno-kanalizacyjna",
+     "kind": "notification",
+     "locality": "Ożarów Mazowiecki"
+    }
+   ],
+   "investments": [
+    {
+     "id": "municipal-news:56659",
+     "title": "Ogłoszone postępowania przetargowe",
+     "recordType": "news",
+     "sourceId": "municipal-news"
+    },
+    {
+     "id": "municipal-news:56668",
+     "title": "Webinarium „Bezpieczeństwo w Internecie. Okazja czy oszustwo – sprawdź zanim podejmiesz decyzję inwestycyjną”",
+     "recordType": "news",
+     "sourceId": "municipal-news"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-08",
+   "permits": [],
+   "investments": [
+    {
+     "id": "environmental:96119",
+     "title": "Postępowanie środowiskowe — publikacja 96119",
+     "recordType": "planning-case",
+     "sourceId": "environmental"
+    },
+    {
+     "id": "municipal-news:56653",
+     "title": "Nowe piłkochwyty na boisku na osiedlu Kabel",
+     "recordType": "news",
+     "sourceId": "municipal-news"
+    },
+    {
+     "id": "procurement:ocds-148610-5e4df047-af64-423f-b333-867e5d173be0",
+     "title": "Budowa ujęcia SUW Święcice",
+     "recordType": "procurement",
+     "sourceId": "procurement"
+    },
+    {
+     "id": "procurement:ocds-148610-870a1d9a-a926-42eb-a71d-ec86c70e9796",
+     "title": "Wykonanie dokumentacji projektowej wraz z uzyskaniem wszelkiej dokumentacji formalno-prawnej umożliwiającej zrealizowanie inwestycji polegającej na przebudowie chodnika przy ulicy Sadowej w Jawczycach",
+     "recordType": "procurement",
+     "sourceId": "procurement"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-07",
+   "permits": [],
+   "investments": [
+    {
+     "id": "municipal-news:56610",
+     "title": "Ołtarzewski plac zabaw w nowej odsłonie",
+     "recordType": "news",
+     "sourceId": "municipal-news"
+    }
+   ]
+  },
+  {
+   "date": "2026-10-06",
+   "permits": [
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/28638/2026",
+     "title": "Budowa — budynek mieszkalny jednorodzinny",
+     "kind": "decision",
+     "locality": "Ożarów Mazowiecki"
+    }
+   ],
+   "investments": []
+  }
+ ]
+}
