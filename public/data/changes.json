@@ -1,8 +1,1101 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-04T21:14:59Z",
+ "generatedAt": "2026-11-05T11:24:50Z",
  "since": "2026-10-03",
  "days": [
+  {
+   "date": "2026-11-05",
+   "permits": [
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/25152/2026",
+     "title": "Budowa — budynek mieszkalny jednorodzinny",
+     "kind": "decision",
+     "locality": "Ożarów Mazowiecki"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/23937/2026",
+     "title": "Zamierzenie — obiekt magazynowy lub przemysłowy",
+     "kind": "decision",
+     "locality": "Bronisze"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/23576/2026",
+     "title": "Rozbudowa — obiekt budowlany",
+     "kind": "decision",
+     "locality": "Ołtarzew"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/23935/2026",
+     "title": "Zamierzenie — obiekt magazynowy lub przemysłowy",
+     "kind": "decision",
+     "locality": "Ożarów Mazowiecki"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/11312/2026",
+     "title": "Zamierzenie — obiekt usługowy lub handlowy",
+     "kind": "decision",
+     "locality": "Józefów"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/11311/2026",
+     "title": "Rozbiórka — obiekt garażowy lub gospodarczy",
+     "kind": "decision",
+     "locality": "Płochocin"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/8423/2026",
+     "title": "Budowa — obiekt magazynowy lub przemysłowy",
+     "kind": "decision",
+     "locality": "Jawczyce"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/8336/2026",
+     "title": "Zamierzenie — budynek mieszkalny jednorodzinny",
+     "kind": "decision",
+     "locality": "Konotopa"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/6478/2026",
+     "title": "Rozbiórka — obiekt garażowy lub gospodarczy",
+     "kind": "decision",
+     "locality": "Ożarów Mazowiecki"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/8327/2026",
+     "title": "Zamierzenie — obiekt garażowy lub gospodarczy",
+     "kind": "decision",
+     "locality": "Macierzysz"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/6476/2026",
+     "title": "Zamierzenie — obiekt garażowy lub gospodarczy",
+     "kind": "decision",
+     "locality": "Duchnice"
+    }
+   ],
+   "investments": [
+    {
+     "id": "budget:203700-p10-r1",
+     "title": "Promowanie zrównoważonej mobilności miejskiej poprzez rozwój sieci dróg rowerowych na terenie gminy Ożarów Mazowiecki",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r12",
+     "title": "Nabycie nieruchomości z terenu Gminy Ożarów Mazowiecki",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r13",
+     "title": "Nabycie nieruchomości z terenu Gminy Ożarów Mazowiecki",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r15",
+     "title": "Budowa kotłowni gazowej w budynku kom. przy ul. Kierbedzia 4, 4A, 6",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r16",
+     "title": "Budowa kotłowni gazowej w budynku kom. przy ul. Poznańskiej 167A",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r17",
+     "title": "Modernizacja budynków komunalnych",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r18",
+     "title": "Projekt i budowa budynku socjalnego.",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r19",
+     "title": "Zakup i montaż domofonów w budynku komunalnym przy ul. Poznańskiej 167",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r2",
+     "title": "Przebudowa ulicy Parkowej i Lipowej na osiedlu Ołtarzew w Ożarowie Mazowieckim",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r20",
+     "title": "Zakup i montaż monitoringu w budynku komunalnym przy ul. Umiastowskiej 68a",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r23",
+     "title": "Plany zagospodarowania przestrzennego",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r26",
+     "title": "Modernizacja budynku Urzędu Miejskiego przy ul. Kolejowej 2",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r27",
+     "title": "Modernizacja budynku Urzędu Miejskiego przy ul. Konotopskiej 4",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r28",
+     "title": "Zakup serwera",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r29",
+     "title": "Zakup drukarek",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r3",
+     "title": "Wykonanie projektu budowy ulicy Kapuckiej",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r30",
+     "title": "Zakup sprzętu i oprogramowania w ramach projektu \" Cyberbezpieczny Samorząd\"",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r31",
+     "title": "Zakup sprzętu i oprogramowania w ramach projektu \" Cyberbezpieczny Samorząd\"",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r32",
+     "title": "Zakup sprzętu i oprogramowania w ramach projektu \" Cyberbezpieczny Samorząd\"",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r4",
+     "title": "Wykonanie projektu i budowa chodnika ul Mazowiecka w Ożarowie Mazowieckim",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r5",
+     "title": "Wykonanie projektu rozbudowy dróg gminnych ulic Strumykowej, Poprzecznej, Karłowicza, Niemena w Wolicy",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r6",
+     "title": "Wykonanie projektu rozbudowy ul. Stołecznej w Płochocinie",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r7",
+     "title": "Promowanie zrównoważonej mobilności miejskiej poprzez rozwój sieci dróg rowerowych na terenie gminy Ożarów Mazowiecki - etap II",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r8",
+     "title": "Promowanie zrównoważonej mobilności miejskiej poprzez rozwój sieci dróg rowerowych na terenie gminy Ożarów Mazowiecki - etap II",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p10-r9",
+     "title": "Zakup wiat przystankowych",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p11-r10",
+     "title": "Rozbudowa monitoringu miejskiego na terenie Gminy",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p11-r11",
+     "title": "Zakup i montaż monitoringu we wsi Macierzysz",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p11-r12",
+     "title": "FS Macierzysz - Zakup i montaż kamer we wsi Macierzysz",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p11-r13",
+     "title": "FS Wieruchów - Zakup i montaż kamery przy ul. Wieruchowskiej",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p11-r16",
+     "title": "Modernizacja i wyposażenie placówek szkolnych",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p11-r17",
+     "title": "Wykonanie pokoju ciszy w szkole podstawowej",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p11-r18",
+     "title": "Strefa aktywnego wypoczynku ze stołami do tenisa stołowego - Obszar Nr 12 Sołectwa",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p11-r2",
+     "title": "Realizacja zadań własnych w ramach Programu OLiOC",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p11-r20",
+     "title": "Budowa monitoringu na terenie Przedszkola w Józefowie ul. Kasztanowa 12",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p11-r21",
+     "title": "Modernizacja dachu przedszkola przy ul. Mickiewicza 51",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p11-r22",
+     "title": "Modernizacja i wyposażenie placówek przedszkolnych",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p11-r25",
+     "title": "Budowa odwodnienia budynku komunalnego przy ul. Kasztanowej 14 w Józefowie",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p11-r26",
+     "title": "Budowa przepompowni ścieków oraz kanalizacji sanitarnej w Ożarowie Mazowieckim przy ul. 11 Listopada",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p11-r27",
+     "title": "Budowa sieci kanalizacji sanitarnej w miejscowości Domaniewek Pierwszy ul. Południowa wraz z ul. Domaniewska.",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p11-r28",
+     "title": "Budowa sieci kanalizacji sanitarnej w miejscowości Wolskie",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p11-r29",
+     "title": "Budowa sieci wodociągowej wzdłuż ul. Ożarowskiej od ul. Żbikowskiej w Pruszkowie do granicy z Gminą Ożarów Mazowiecki",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p11-r30",
+     "title": "Budowa SUW Szeligi",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p11-r31",
+     "title": "Budowa systemu odprowadzania wód opadowych w okolicach ulic Święcickiej, Warszawskiej i Rzecznej",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p11-r5",
+     "title": "Zakup samochodu ratowniczego dla OSP Święcice",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p11-r7",
+     "title": "Zakup samochodu dla Straży Miejskiej w Ożarowie Mazowieckim",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p11-r9",
+     "title": "FS Duchnice - Zakup i montaż monitoringu we wsi Duchnice",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r1",
+     "title": "Budowa Ujęcia SUW Partyzantów oraz zbiorników retencyjnych na SUW Partyzantów",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r10",
+     "title": "Rekonstrukcja studni nr 2 na SUW Partyzantów w Ożarowie Mazowieckim",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r11",
+     "title": "Rozbudowa sieci wodno-kanalizacyjnej na terenie gminy",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r12",
+     "title": "Rozbudowa systemu kanalizacji sanitarnej w Gminie Ożarów Mazowiecki",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r13",
+     "title": "Wykonanie projektu i budowa nowego zbiornika retencji wody na SUW Święcice",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r14",
+     "title": "Wykonanie projektu i budowa zbiornika wody czystej na terenie Duchnic",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r15",
+     "title": "Wykonanie projektu i budowa zbiornika wody czystej na terenie wsi Mory",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r16",
+     "title": "Zabudowa samochodu",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r17",
+     "title": "Zwroty za wybudowane odcinki sieci wodno-kanalizacyjnych.",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r18",
+     "title": "Zakup sprzętu technicznego",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r2",
+     "title": "Budowa ujęcia SUW Szeligi",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r20",
+     "title": "Rozbudowa Gminnego Punktu Selektywnego Zbierania Odpadów Komunalnych w Gminie Ożarów Mazowieckim",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r21",
+     "title": "Rozbudowa Gminnego Punktu Selektywnego Zbierania Odpadów Komunalnych w Gminie Ożarów Mazowieckim",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r22",
+     "title": "Rozbudowa Gminnego Punktu Selektywnego Zbierania Odpadów Komunalnych w Gminie Ożarów Mazowieckim",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r24",
+     "title": "Zakup ciągnika wielofunkcyjnego średniej wielkości z kabiną i osprzętem do zimowego utrzymania chodników i koszenia na potrzeby Zakładu Usług Komunalnych",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r26",
+     "title": "Mazowsze bez smogu",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r27",
+     "title": "Mazowsze bez smogu",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r29",
+     "title": "Budowa oświetlenia ulicznego na ulicy Rubinowej w Ożarowie Mazowieckim",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r3",
+     "title": "Budowa ujęcia SUW Święcice",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r30",
+     "title": "Projekt i modernizacja oświetlenia ulicznego",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r32",
+     "title": "Budowa skateparku w Płochocinie",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r4",
+     "title": "Budowa ujęcia wody w Umiastowie",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r5",
+     "title": "Modernizacja monitoringu sieci wodociągowych",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r6",
+     "title": "Poprawa stanu gospodarki wodno-ściekowej obszarów poza aglomeracją w gminie Ożarów Mazowiecki",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r7",
+     "title": "Projekt budowy sieci kanalizacji sanitarnej w miejscowości Kaputy ul. Wygodna",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r8",
+     "title": "Projekt i budowa bazy ZWIK",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p12-r9",
+     "title": "Projekty sieci wod-kan na terenie Gminy",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r1",
+     "title": "FS Płochocin - Wykonanie systemu nawadniania terenów sportowo - rekreacyjnych we wsi Płochocin",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r10",
+     "title": "Utworzenie terenów rekreacyjno-edukacyjnych oraz rewitalizacja stawów w Umiastowie",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r11",
+     "title": "Wykonanie systemu nawadniania roślin w Ożarowie",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r12",
+     "title": "FS Pogroszew Kolonia - Zakup altany dla wsi Pogroszew Kolonia",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r13",
+     "title": "Kosz do koszykówki - mini boisko - Obszar Nr 5 Ożarów Mazowiecki - osiedle Mickiewicza",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r14",
+     "title": "Wyposażenie czytelni w budynku dworca PKP",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r17",
+     "title": "Opracowanie projektu budynku rekreacyjno - kulturowego na terenie Towarzystwa Miłośników Ołtarzewa",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r18",
+     "title": "Projekt budowy Centrum opiekuńczego w Józefowie",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r19",
+     "title": "Projekt i budowa Gminnego Centrum Kultury.",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r2",
+     "title": "FS Święcice - Zakup i montaż bezpiecznej nawierzchni na placu zabaw we wsi Święcice",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r22",
+     "title": "Modernizacja kortów tenisowych w Ożarowie Mazowieckim",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r23",
+     "title": "Projekt budowy boiska przy Szkole Podstawowej w Ołtarzewie",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r24",
+     "title": "Projekt i budowa boiska przy SP Umiastów",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r25",
+     "title": "Rozbudowa boiska Płochocin Wieś",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r26",
+     "title": "Wykonanie projektu hali sportowej przy Szkole Podstawowej nr 1 w Ożarowie Mazowieckim",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r27",
+     "title": "Piłkarska arena rodzinna - Obszar Nr 12 Sołectwa",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r29",
+     "title": "Doposażenie terenów rekreacyjnych we wsi Wolskie",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r3",
+     "title": "Projekt i budowa strefy relaksu w Ołtarzewie",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r30",
+     "title": "FS Wolskie - Rozbudowa terenów rekreacyjno - sportowych we wsi Wolskie",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r4",
+     "title": "Projekt zagospodarowania terenów rekreacyjnych wzdłuż kanału Ożarowskiego i ul. Szkolnej od ul. Nadbrzeżnej w kierunku północnym.",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r5",
+     "title": "Rozbudowa i przebudowa boiska sportowego Bloki Kabel",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r6",
+     "title": "Rozbudowa i przebudowa placu zabaw przy SP 1 w Ożarowie Mazowieckim",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r7",
+     "title": "Rozbudowa placu zabaw Osiedle Ołtarzew przy ul. Parkowej z uwzględnieniem huśtawki dla osób niepełnosprawnych",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r8",
+     "title": "Rozbudowa placu zabaw przy Domu Kultury Uśmiech w Józefowie z uwzględnieniem huśtawki dla osób niepełnosprawnych",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p13-r9",
+     "title": "Rozbudowa placu zabaw przy Przedszkolu w Józefowie",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p14-r1",
+     "title": "Siłownia plenerowa przy basenie - Obszar Nr 10 Ożarów Mazowiecki - osiedle Zientarówka.",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p14-r2",
+     "title": "Srefa Street Workout we wsi Wolskie",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p14-r3",
+     "title": "Strefa workout przy hali widowiskowo - sportowej w Kręczkach - Obszar Nr 12 Sołectwa",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p9-r10",
+     "title": "FS Kaputy - Kręczki - Budowa chodnika na drodze 8KDD przy skrzyżowaniu z ul. Willowa Aleja",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p9-r11",
+     "title": "FS Ołtarzew Wieś - Montaż progów zwalniających we wsi Ołtarzew",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p9-r12",
+     "title": "Koncepcja przebudowy ul. Lipowej w Płochocinie",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p9-r13",
+     "title": "Projekt budowy przepraw nad torami kolejowymi, oraz budowa przepraw nad torami kolejowymi w ciągu dróg wojewódzkich Nr 718 i 701 z rozbudową skrzyżowania drogi krajowej Nr 92 z drogą powiatową Nr 4122W ul. Strzykulska gm. Ożarów Mazowiecki",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p9-r14",
+     "title": "Projekt budowy chodnika ul. Sadowa w Jawczycach",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p9-r15",
+     "title": "Projekt budowy ulicy Brzegowej od ulicy Ceramicznej do ulicy Duchnickiej w Ołtarzewie",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p9-r16",
+     "title": "Projekt i budowa ścieżki rowerowej wzdłuż ulicy Poznańskiej w Gminie Ożarów Mazowiecki",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p9-r17",
+     "title": "Projekt i przebudowa drogi DK92 z ul. Zamoyskiego wraz z sygnalizacją świetlną",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p9-r18",
+     "title": "Projekt rozbudowy dróg gminnych ul. Głogowej, ul. Dereniowej, ul. Bez nazwy nr 69 oraz odcinka ulicy Orzechowej wraz ze skrzyżowaniami z drogami powiatowymi w Strzykułach.",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p9-r19",
+     "title": "Projekt rozbudowy DW 701 ul. Ożarowskiej w postaci budowy chodnika",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p9-r20",
+     "title": "Projekt rozbudowy skrzyżowania DW700, DW 701 i drogi gminnej ul. Fabryczna w postaci ronda",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p9-r21",
+     "title": "Projekt ul. Sochaczewskiej",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p9-r22",
+     "title": "Projekty i przebudowa dróg gminnych",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p9-r3",
+     "title": "Budowa skrzyżowania DK92 ul. Poznańskiej i DW700 ul. Warszawskiej w Święcicach wraz z sygnalizacją świetlną.",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p9-r4",
+     "title": "Budowa ul. Wierzbowej",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p9-r5",
+     "title": "Budowa ulicy Kapuckiej w Ożarowie Mazowieckim - etap I",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p9-r6",
+     "title": "Budowa ulicy Wschodzącego Słońca w Ożarowie Mazowieckim",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p9-r7",
+     "title": "Budowa wyniesionego skrzyżowania ulic Przyparkowej i Sadowej w Jawczycach",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p9-r8",
+     "title": "FS Domaniewek - Budowa progów zwalniających na ul. Południowej",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "budget:203700-p9-r9",
+     "title": "FS Duchnice - Budowa progu zwalniającego na ul. Duchnicka a ul. Architektów we wsi Duchnice",
+     "recordType": "budget-task",
+     "sourceId": "budget"
+    },
+    {
+     "id": "municipal-news:57210",
+     "title": "Budowa oświetlenia na ulicy Rubinowej",
+     "recordType": "news",
+     "sourceId": "municipal-news"
+    },
+    {
+     "id": "municipal-news:57230",
+     "title": "Remont ulicy Żytniej",
+     "recordType": "news",
+     "sourceId": "municipal-news"
+    },
+    {
+     "id": "procurement:ocds-148610-88bbb542-8b6a-4115-9761-7444672c4f38",
+     "title": "Budowa budynku mieszkalnego wielorodzinnego, komunalnego i miejsc postojowych wraz z infrastrukturą towarzyszącą przy ul. Fabrycznej w Józefowie",
+     "recordType": "procurement",
+     "sourceId": "procurement"
+    },
+    {
+     "id": "wpf:203698-1.1.2.1",
+     "title": "Rozbudowa Gminnego Punktu Selektywnego Zbierania Odpadów Komunalnych w Gminie Ożarów Mazowiecki - Poprawa jakości życia mieszkańców Gminy, poprzez zwiększenie efektywności systemu gospodarowania odpadami.",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.1.2.2",
+     "title": "Promowanie zrównoważonej mobilności miejskiej poprzez rozwój sieci dróg rowerowych na terenie Gminy Ożarów Mazowiecki - etap II - Stworzenie spójnego układu sieci infrastruktury rowerowej na terenie gminy Ożarów Mazowiecki",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.1",
+     "title": "Wykonanie projektu rozbudowy ul. Stołecznej w Płochocinie - Poprawa infrastruktury drogowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.10",
+     "title": "Zakup samochodu ratowniczego dla OSP Święcice - Zwiększenie efektywności działań ratowniczo-gaśniczych",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.11",
+     "title": "Projekt i budowa budynku socjalnego - Poprawa warunków socjalno- mieszkaniowych mieszkańców gminy",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.12",
+     "title": "Budowa SUW Szeligi - Poprawa gospodarki komunalnej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.13",
+     "title": "Budowa ujęcia SUW Szeligi - Poprawa gospodarki komunalnej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.14",
+     "title": "Projekt i budowa ścieżki rowerowej wzdłuż ulicy Poznańskiej w Gminie Ożarów Mazowiecki - Poprawa jakości powietrza",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.15",
+     "title": "Projekt budowy sieci kanalizacji sanitarnej w miejscowości Kaputy ul. Wygodna - Poprawa gospodarki wodno-ściekowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.17",
+     "title": "Projekt rozbudowy skrzyżowania DW 700, DW 701 i drogi gminnej ul. Fabryczna w postaci ronda - Poprawa infrastruktury drogowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.18",
+     "title": "Projekt budowy Centrum opiekuńczego w Józefowie - Zapewnienie opieki, wsparcia i pomocy osobom niepełnosprawnym",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.19",
+     "title": "Budowa wyniesionego skrzyżowania ulic Przyparkowej i Sadowej w Jawczycach - Poprawa infrastruktury drogowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.2",
+     "title": "Projekt budowy przepraw nad torami kolejowymi oraz budowa przepraw nad torami kolejowymi w ciągu dróg wojewódzkich Nr 718 i 701 z rozbudową skrzyżowania drogi krajowej Nr 92 z drogą powiatową Nr 4122W ul. Strzykulska gm. Ożarów Mazowiecki - Poprawa infrastruktury drogowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.20",
+     "title": "Budowa odwodnienia budynku komunalnego przy ul. Kasztanowej 14 w Józefowie - Zabezpieczenie trwałości konstrukcji budynku",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.21",
+     "title": "Budowa przepompowni ścieków oraz kanalizacji sanitarnej w Ożarowie Mazowieckim przy ul. 11 Listopada - Poprawa gospodarki wodno- ściekowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.22",
+     "title": "Projekt budowy chodnika ul. Sadowa w Jawczycach - Poprawa infrastruktury drogowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.23",
+     "title": "Rekonstrukcja studni nr 2 na SUW Partyzantów w Ożarowie Mazowieckim - Zabezpieczenie dostawy wody pitnej na terenie Ożarowa Mazowieckiego",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.24",
+     "title": "Wykonanie projektu i budowa nowego zbiornika retencji wody na SUW Święcice - Zaopatrzenie mieszkańców gminy Ożarów Mazowiecki do zasobów wody pitnej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.25",
+     "title": "Projekt i budowa boiska przy SP Umiastów - Poprawa infrastruktury sportowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.26",
+     "title": "Projekt rozbudowy DW701 ul. Ożarowskiej w postaci budowy chodnika - Poprawa infrastruktury drogowej i zwiększenie bezpieczeństwa pieszych użytkowników ruchu drogowego",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.27",
+     "title": "Wykonanie projektu budowy ulicy Kapuckiej - Poprawa infrastruktury drogowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.28",
+     "title": "Wykonanie projektu rozbudowy dróg gminnych ulic Strumykowej, Poprzecznej, Karłowicza, Niemena w Wolicy - Poprawa infrastruktury drogowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.29",
+     "title": "Projekt rozbudowy dróg gminnych ul. Głogowej, ul. Dereniowej, ul. Bez nazwy nr 69 oraz odcinka ulicy Orzechowej wraz ze skrzyżowaniami z drogami powiatowymi w Strzykułach - Poprawa infrastruktury drogowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.3",
+     "title": "Projekt budowy boiska przy Szkole Podstawowej w Ołtarzewie - Poprawa dostępności do infrastruktury sportowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.30",
+     "title": "Wykonanie projektu i budowa chodnika ul. Mazowiecka w Ożarowie Mazowieckim - Poprawa infrastruktury drogowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.31",
+     "title": "Projekt ul. Sochaczewskiej - Poprawa infrastruktury drogowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.32",
+     "title": "Budowa ulicy Kapuckiej w Ożarowie Mazowieckim - etap I - Poprawa infrastruktury drogowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.33",
+     "title": "Projekt budowy ulicy Brzegowej od ulicy Ceramicznej do ulicy Duchnickiej w Ołtarzewie - Poprawa infrastruktury drogowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.34",
+     "title": "Budowa ulicy Wschodzącego Słońca w Ożarowie Mazowieckim - Poprawa infrastruktury drogowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.35",
+     "title": "Budowa systemu odprowadzania wód opadowych w okolicach ulic Święcickiej, Warszawskiej i Rzecznej - Poprawa gospodarki komunalnej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.36",
+     "title": "Budowa ul. Wierzbowej - Poprawa infrastruktury drogowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.37",
+     "title": "Budowa ujęcia SUW Święcice - Poprawa gospodarki komunalnej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.38",
+     "title": "Poprawa stanu gospodarki wodno-ściekowej obszarów poza aglomeracją w gminie Ożarów Mazowiecki - Poprawa gospodarki komunalnej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.39",
+     "title": "Budowa ujęcia wody w Umiastowie - Poprawa gospodarki komunalnej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.4",
+     "title": "Projekt i przebudowa drogi DK92 z ul. Zamoyskiego wraz z sygnalizacją świetlną - Poprawa bezpieczeństwa publicznego",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.40",
+     "title": "Promowanie zrównoważonej mobilności miejskiej poprzez rozwój sieci drógrowerowych na terenie Gminy Ożarów Mazowiecki - etap II - Stworzenie spójnego układu sieci infrastruktury rowerowej na terenie gminy Ożarów Mazowiecki",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.41",
+     "title": "Rozbudowa Gminnego Punktu Selektywnego Zbierania Odpadów Komunalnych w Gminie Ożarów Mazowiecki - Poprawa jakości życia mieszkańców Gminy, poprzez zwiększenie efektywności systemu gospodarowania odpadami",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.42",
+     "title": "Wykonanie projektu hali sportowej przy Szkole Podstawowej nr 1 w Ożarowie Mazowieckim - Poprawa dostępności do infrastruktury sportowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.43",
+     "title": "Wykonanie projektu i budowa zbiornika wody czystej na terenie Duchnic - Poprawa gospodarki wodno-ściekowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.44",
+     "title": "Wykonanie projektu i budowa zbiornika wody czystej na terenie wsi Mory - Poprawa gospodarki wodno-ściekowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.45",
+     "title": "Nabycie nieruchomości z terenu Gminy Ozarów Mazowiecki - Utworzenie miejsc kulturalno-sportowych oraz terenów zielonych",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.5",
+     "title": "Budowa sieci kanalizacji sanitarnej w miejscowości Domaniewek Pierwszy ul. Południowa wraz z ul. Domaniewską - Poprawa gospodarki wodno-ściekowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.6",
+     "title": "Budowa skrzyżowania DK92 ul. Poznańskiej i DW700 ul. Warszawskiej w Święcicach wraz z sygnalizacją świetlną - Poprawa bezpieczeństwa publicznego",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.7",
+     "title": "Budowa sieci kanalizacji sanitarnej w miejscowości Wolskie - Poprawa gospodarki wodno-ściekowej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.8",
+     "title": "Projekt i budowa Gminnego Centrum Kultury - Zwiększenie dostępności do kultury",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    },
+    {
+     "id": "wpf:203698-1.3.2.9",
+     "title": "Budowa ujęcia SUW Partyzantów oraz zbiorników retencyjnych na SUW Partyzantów - Poprawa gospodarki komunalnej",
+     "recordType": "budget-task",
+     "sourceId": "wpf"
+    }
+   ]
+  },
   {
    "date": "2026-10-31",
    "permits": [],

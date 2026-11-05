@@ -1,19 +1,19 @@
 {
-  "generatedAt": "2026-11-01T10:41:00.833829Z",
-  "recordCount": 474,
-  "parcelCount": 889,
-  "matchedRecordCount": 395,
-  "partialRecordCount": 30,
-  "unresolvedRecordCount": 49,
-  "coverage": "Cała gmina Ożarów Mazowiecki (miasto i obszar wiejski): daty wpływu 2025-01-01–2026-11-01; faktyczne wpisy 2025-01-09–2026-10-08. Wnioski/decyzje: CSV mazowieckie; zgłoszenia: CSV krajowy od 2022. Obrysy ze stanu ULDK podczas pobrania (cache do 30 dni), nie historyczne.",
+  "generatedAt": "2026-11-05T11:18:51.806065Z",
+  "recordCount": 485,
+  "parcelCount": 896,
+  "matchedRecordCount": 404,
+  "partialRecordCount": 31,
+  "unresolvedRecordCount": 50,
+  "coverage": "Cała gmina Ożarów Mazowiecki (miasto i obszar wiejski): daty wpływu 2025-01-01–2026-11-05; faktyczne wpisy 2025-01-09–2026-10-08. Wnioski/decyzje: CSV mazowieckie; zgłoszenia: CSV krajowy od 2022. Obrysy ze stanu ULDK podczas pobrania (cache do 30 dni), nie historyczne.",
   "warnings": [
     "Decyzja w CSV nie oznacza pozwolenia: eksport nie podaje wyniku rozstrzygnięcia. Wniosek i zgłoszenie są odrębnymi rodzajami wpisów.",
     "Powtarzające się wiersze działek połączono według identyfikatora systemowego GUNB; wniosek z odnotowaną decyzją to jeden wpis typu decyzja.",
     "CSV może zawierać błędy/nieaktualne numery działek; nie korygowano identyfikatorów według nazw miejscowości.",
     "Import obejmuje datę wpływu w wybranym zakresie, nie wszystkie decyzje wydane w tym okresie dla starszych wniosków; brak danych sprzed zakresu.",
     "W bieżącym wycinku CSV każdy wniosek ma odnotowaną decyzję; nie ma wpisów typu sam wniosek. Nie oznacza braku nierozpatrzonych wniosków w gminie — eksport CSV nie gwarantuje ich kompletności.",
-    "ULDK nie potwierdził 93 odwołań po ograniczonych próbach. Mogą to być zmienione działki, błędy CSV lub odpowiedzi usługi.",
-    "Nieprawidłowe, obce lub niejednoznaczne odwołania katastralne: 38 wierszy CSV; zachowano wpisy wybrane po TERC bez zgadywania geometrii."
+    "ULDK nie potwierdził 94 odwołań po ograniczonych próbach. Mogą to być zmienione działki, błędy CSV lub odpowiedzi usługi.",
+    "Nieprawidłowe, obce lub niejednoznaczne odwołania katastralne: 40 wierszy CSV; zachowano wpisy wybrane po TERC bez zgadywania geometrii."
   ],
   "sources": [
     {
@@ -31,57 +31,57 @@
     {
       "name": "GUNB permit",
       "url": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_mazowieckie.zip",
-      "downloadedAt": "2026-11-01T10:38:50.639502Z",
-      "sha256": "ae7cedd0440dc8cb493b1b5cb578111e8bd2114f9872255ed6061021c30d28e5",
-      "byteCount": 46601941,
-      "httpLastModified": "Sat, 31 Oct 2026 22:35:08 GMT",
-      "httpETag": "\"2c716d5-65f2a86628e37\""
+      "downloadedAt": "2026-11-05T11:12:08.985953Z",
+      "sha256": "b28f9d163f4af6dbc167cfc96db73768e41d89be238e1dae26db70672e3d0d03",
+      "byteCount": 46649795,
+      "httpLastModified": "Wed, 04 Nov 2026 22:35:08 GMT",
+      "httpETag": "\"2c7d1c3-65f7afdc8174e\""
     },
     {
       "name": "GUNB notification",
       "url": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_zgloszenia_2022_up.zip",
-      "downloadedAt": "2026-11-01T10:39:03.094288Z",
-      "sha256": "cf1eae7f800742f4e7ce7e3f37b2f218599aad7a86d273849fbbda99357ef31a",
-      "byteCount": 26108729,
-      "httpLastModified": "Sat, 31 Oct 2026 22:36:04 GMT",
-      "httpETag": "\"18e6339-65f2a89bfd297\""
+      "downloadedAt": "2026-11-05T11:12:20.633397Z",
+      "sha256": "d89e3d79329f71b027c32bbe29ea95a62e76b7eafae97192b28f8351a29cd15f",
+      "byteCount": 26189594,
+      "httpLastModified": "Wed, 04 Nov 2026 22:36:05 GMT",
+      "httpETag": "\"18f9f1a-65f7b012a2e0e\""
     }
   ],
   "dateRange": {
     "requestedStart": "2025-01-01",
-    "requestedEnd": "2026-11-01",
+    "requestedEnd": "2026-11-05",
     "actualStart": "2025-01-09",
     "actualEnd": "2026-10-08"
   },
   "kindCounts": {
     "notification": 106,
-    "decision": 368
+    "decision": 379
   },
   "localityCounts": {
-    "Bronisze": 10,
+    "Bronisze": 11,
     "Błonie": 1,
-    "Duchnice": 38,
+    "Duchnice": 39,
     "Gołaszew": 4,
-    "Jawczyce": 17,
-    "Józefów": 2,
+    "Jawczyce": 18,
+    "Józefów": 3,
     "Kaputy": 16,
-    "Konotopa": 3,
+    "Konotopa": 4,
     "Koprki": 1,
     "Kopytów": 1,
     "Kręczki": 11,
     "Leszno": 1,
-    "Macierzysz": 20,
+    "Macierzysz": 21,
     "Michałówek": 1,
     "Mory": 7,
     "Myszczyn": 6,
-    "Ołtarzew": 11,
-    "Ożarów Mazowiecki": 131,
+    "Ołtarzew": 12,
+    "Ożarów Mazowiecki": 134,
     "Pilaszków": 7,
     "Piotrkówek Duży": 1,
     "Piotrkówek Mały": 5,
     "Pogroszew": 12,
     "Pogroszew-Kolonia": 11,
-    "Płochocin": 46,
+    "Płochocin": 47,
     "Strzykuły": 11,
     "Szeligi": 14,
     "Truskaw": 1,
@@ -94,15 +94,15 @@
   },
   "rawStatistics": {
     "permit": {
-      "totalRows": 696658,
-      "scopedRows": 5639,
+      "totalRows": 697278,
+      "scopedRows": 5655,
       "dateFilteredRows": 4838,
       "invalidDateRows": 0,
       "missingIdRows": 0,
-      "invalidParcelRows": 21
+      "invalidParcelRows": 23
     },
     "notification": {
-      "totalRows": 942538,
+      "totalRows": 945337,
       "scopedRows": 963,
       "dateFilteredRows": 591,
       "invalidDateRows": 0,
@@ -111,17 +111,17 @@
     }
   },
   "geometryCoverage": {
-    "candidateParcelCount": 982,
-    "attemptedParcelCount": 982,
-    "confirmedParcelCount": 889,
-    "failedParcelCount": 93,
+    "candidateParcelCount": 990,
+    "attemptedParcelCount": 990,
+    "confirmedParcelCount": 896,
+    "failedParcelCount": 94,
     "unattemptedParcelCount": 0,
     "strategy": "newest applications first; full exact-ID validation",
     "maxParcels": 0,
-    "reusedParcelCount": 889,
-    "freshParcelCount": 0,
-    "downloadedAtStart": "2026-10-02T21:44:00.391116Z",
-    "downloadedAtEnd": "2026-10-30T10:14:59.788361Z"
+    "reusedParcelCount": 46,
+    "freshParcelCount": 850,
+    "downloadedAtStart": "2026-10-09T10:44:40.233448Z",
+    "downloadedAtEnd": "2026-11-05T11:18:51.728139Z"
   },
   "cadastralRegions": [
     {
@@ -443,6 +443,7 @@
     "143206_5.0030.72/7",
     "143206_5.0030.73/2",
     "143206_5.0031.78/3",
+    "143206_5.0034.14/16",
     "143206_5.0035.54/5"
   ],
   "privacy": "Investor/designer fields excluded. Source free-text titles/descriptions are never published; fixed-vocabulary summaries only. Raw ZIP/CSV private and excluded from Actions caches.",
@@ -453,5 +454,5 @@
     "rawSourceCacheShared": false,
     "maximumLossFraction": 0.2
   },
-  "publicEvidenceResponseCount": 935
+  "publicEvidenceResponseCount": 942
 }
