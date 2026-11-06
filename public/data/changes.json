@@ -1,8 +1,27 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-05T11:24:50Z",
+ "generatedAt": "2026-11-06T11:18:41Z",
  "since": "2026-10-03",
  "days": [
+  {
+   "date": "2026-11-06",
+   "permits": [
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/33953/2026",
+     "title": "Budowa — budynek mieszkalny jednorodzinny",
+     "kind": "decision",
+     "locality": "Święcice"
+    }
+   ],
+   "investments": [
+    {
+     "id": "procurement:ocds-148610-e961dfdf-d04d-489f-8ab5-9893b30aec8f",
+     "title": "Dostawa wyposażenia i rozwiązań technicznych oraz informatycznych służących rozwojowi systemu selektywnego zbierania odpadów komunalnych na terenie Gminy Ożarów Mazowiecki z podziałem na 3 części",
+     "recordType": "procurement",
+     "sourceId": "procurement"
+    }
+   ]
+  },
   {
    "date": "2026-11-05",
    "permits": [
