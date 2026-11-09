@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T10:37:34.253392Z",
+  "generatedAt": "2026-11-09T11:52:25.008265Z",
   "source": {
     "name": "GUNB RWDZ",
     "url": "https://wyszukiwarka.gunb.gov.pl/pobranie.html",
-    "downloadedAt": "2026-11-08T10:35:39.856208Z",
-    "coverage": "Cała gmina Ożarów Mazowiecki (miasto i obszar wiejski): daty wpływu 2025-01-01–2026-11-08; faktyczne wpisy 2025-01-09–2026-11-03. Wnioski/decyzje: CSV mazowieckie; zgłoszenia: CSV krajowy od 2022. Obrysy ze stanu ULDK podczas pobrania (cache do 30 dni), nie historyczne."
+    "downloadedAt": "2026-11-09T11:50:29.752105Z",
+    "coverage": "Cała gmina Ożarów Mazowiecki (miasto i obszar wiejski): daty wpływu 2025-01-01–2026-11-09; faktyczne wpisy 2025-01-09–2026-11-03. Wnioski/decyzje: CSV mazowieckie; zgłoszenia: CSV krajowy od 2022. Obrysy ze stanu ULDK podczas pobrania (cache do 30 dni), nie historyczne."
   },
   "records": [
     {
