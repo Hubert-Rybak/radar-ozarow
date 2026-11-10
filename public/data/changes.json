@@ -1,8 +1,20 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-09T11:58:46Z",
+ "generatedAt": "2026-11-10T11:33:19Z",
  "since": "2026-10-03",
  "days": [
+  {
+   "date": "2026-11-10",
+   "permits": [
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/21174/2026",
+     "title": "Budowa — infrastruktura drogowa",
+     "kind": "decision",
+     "locality": "Duchnice"
+    }
+   ],
+   "investments": []
+  },
   {
    "date": "2026-11-06",
    "permits": [
