@@ -1,8 +1,26 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-10T11:33:19Z",
+ "generatedAt": "2026-11-11T11:21:21Z",
  "since": "2026-10-03",
  "days": [
+  {
+   "date": "2026-11-11",
+   "permits": [],
+   "investments": [
+    {
+     "id": "municipal-news:57315",
+     "title": "Remont ulicy Świerkowej w miejscowości Bronisze",
+     "recordType": "news",
+     "sourceId": "municipal-news"
+    },
+    {
+     "id": "procurement:ocds-148610-b8b1cbb0-61d3-4462-8299-eb054a98ad5a",
+     "title": "Opracowanie dokumentacji projektowej cz.: cz. A - Projekt budowy zbiornika retencyjnego wody uzdatnionej w Jawczycach, cz. B - Projekt budowy zbiornika retencyjnego wody uzdatnionej w Duchnicach",
+     "recordType": "procurement",
+     "sourceId": "procurement"
+    }
+   ]
+  },
   {
    "date": "2026-11-10",
    "permits": [
