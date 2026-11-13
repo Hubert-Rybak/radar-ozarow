@@ -1,8 +1,32 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-12T11:38:32Z",
+ "generatedAt": "2026-11-13T11:23:31Z",
  "since": "2026-10-03",
  "days": [
+  {
+   "date": "2026-11-13",
+   "permits": [
+    {
+     "id": "notification:ST-MZ-OZ/ZGŁOSZENIE/8265/2026",
+     "title": "Budowa — infrastruktura elektroenergetyczna",
+     "kind": "notification",
+     "locality": "Ożarów Mazowiecki"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/33604/2026",
+     "title": "Budowa — infrastruktura wodno-kanalizacyjna",
+     "kind": "decision",
+     "locality": "Ołtarzew"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/30935/2026",
+     "title": "Budowa — obiekt usługowy lub handlowy",
+     "kind": "decision",
+     "locality": "Ożarów Mazowiecki"
+    }
+   ],
+   "investments": []
+  },
   {
    "date": "2026-11-11",
    "permits": [],
