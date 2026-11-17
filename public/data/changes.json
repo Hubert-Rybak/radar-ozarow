@@ -1,8 +1,51 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-16T11:55:16Z",
+ "generatedAt": "2026-11-17T12:13:51Z",
  "since": "2026-10-03",
  "days": [
+  {
+   "date": "2026-11-17",
+   "permits": [
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/34664/2026",
+     "title": "Budowa — budynek mieszkalny jednorodzinny",
+     "kind": "decision",
+     "locality": "Święcice"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/30984/2026",
+     "title": "Budowa — budynek mieszkalny jednorodzinny",
+     "kind": "decision",
+     "locality": "Ożarów Mazowiecki"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/29480/2026",
+     "title": "Budowa — infrastruktura gazowa",
+     "kind": "decision",
+     "locality": "Jawczyce"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/28653/2026",
+     "title": "Budowa — budynek mieszkalny",
+     "kind": "decision",
+     "locality": "Duchnice"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/28758/2026",
+     "title": "Rozbiórka — budynek mieszkalny jednorodzinny",
+     "kind": "decision",
+     "locality": "Macierzysz"
+    }
+   ],
+   "investments": [
+    {
+     "id": "environmental:96289",
+     "title": "Postępowanie środowiskowe — publikacja 96289",
+     "recordType": "planning-case",
+     "sourceId": "environmental"
+    }
+   ]
+  },
   {
    "date": "2026-11-13",
    "permits": [

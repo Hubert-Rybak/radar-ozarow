@@ -1,13 +1,37 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T11:47:37.473282Z",
+  "generatedAt": "2026-11-17T12:07:53.399217Z",
   "source": {
     "name": "GUNB RWDZ",
     "url": "https://wyszukiwarka.gunb.gov.pl/pobranie.html",
-    "downloadedAt": "2026-11-16T11:45:32.272631Z",
-    "coverage": "Cała gmina Ożarów Mazowiecki (miasto i obszar wiejski): daty wpływu 2025-01-01–2026-11-16; faktyczne wpisy 2025-01-09–2026-11-04. Wnioski/decyzje: CSV mazowieckie; zgłoszenia: CSV krajowy od 2022. Obrysy ze stanu ULDK podczas pobrania (cache do 30 dni), nie historyczne."
+    "downloadedAt": "2026-11-17T12:06:02.142314Z",
+    "coverage": "Cała gmina Ożarów Mazowiecki (miasto i obszar wiejski): daty wpływu 2025-01-01–2026-11-17; faktyczne wpisy 2025-01-09–2026-11-06. Wnioski/decyzje: CSV mazowieckie; zgłoszenia: CSV krajowy od 2022. Obrysy ze stanu ULDK podczas pobrania (cache do 30 dni), nie historyczne."
   },
   "records": [
+    {
+      "id": "permit:ST-MZ-OZ/WNIOSEK/34664/2026",
+      "kind": "decision",
+      "title": "Budowa — budynek mieszkalny jednorodzinny",
+      "description": "Bezpieczny skrót rodzaju inwestycji. Swobodny opis GUNB pominięto ze względu na możliwość występowania danych osobowych.",
+      "applicationDate": "2026-11-06",
+      "decisionDate": "2026-11-12",
+      "decisionNumber": "1205/2026",
+      "status": "Decyzja odnotowana — wynik nieudostępniony w CSV",
+      "locality": "Święcice",
+      "street": "",
+      "municipality": "Ożarów Mazowiecki (miasto i obszar wiejski)",
+      "cadastralRegion": "143206_5.0022",
+      "parcelNumbers": [
+        "218/3"
+      ],
+      "parcelIds": [
+        "143206_5.0022.218/3"
+      ],
+      "category": "XXVI",
+      "sourceUrl": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_mazowieckie.zip",
+      "geometryStatus": "matched",
+      "geometryNote": "Potwierdzone obrysy ULDK: 1/1."
+    },
     {
       "id": "notification:ST-MZ-OZ/ZGŁOSZENIE/8265/2026",
       "kind": "notification",
@@ -123,6 +147,30 @@
       "geometryNote": "Potwierdzone obrysy ULDK: 4/4."
     },
     {
+      "id": "permit:ST-MZ-OZ/WNIOSEK/30984/2026",
+      "kind": "decision",
+      "title": "Budowa — budynek mieszkalny jednorodzinny",
+      "description": "Bezpieczny skrót rodzaju inwestycji. Swobodny opis GUNB pominięto ze względu na możliwość występowania danych osobowych.",
+      "applicationDate": "2026-10-07",
+      "decisionDate": "2026-10-14",
+      "decisionNumber": "1089/2026",
+      "status": "Decyzja odnotowana — wynik nieudostępniony w CSV",
+      "locality": "Ożarów Mazowiecki",
+      "street": "",
+      "municipality": "Ożarów Mazowiecki (miasto i obszar wiejski)",
+      "cadastralRegion": "143206_4.0002",
+      "parcelNumbers": [
+        "134/9"
+      ],
+      "parcelIds": [
+        "143206_4.0002.134/9"
+      ],
+      "category": "XXVI",
+      "sourceUrl": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_mazowieckie.zip",
+      "geometryStatus": "matched",
+      "geometryNote": "Potwierdzone obrysy ULDK: 1/1."
+    },
+    {
       "id": "notification:ST-MZ-OZ/ZGŁOSZENIE/7310/2026",
       "kind": "notification",
       "title": "Zamierzenie — infrastruktura elektroenergetyczna",
@@ -205,6 +253,30 @@
       "sourceUrl": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_zgloszenia_2022_up.zip",
       "geometryStatus": "matched",
       "geometryNote": "Potwierdzone obrysy ULDK: 4/4."
+    },
+    {
+      "id": "permit:ST-MZ-OZ/WNIOSEK/29480/2026",
+      "kind": "decision",
+      "title": "Budowa — infrastruktura gazowa",
+      "description": "Bezpieczny skrót rodzaju inwestycji. Swobodny opis GUNB pominięto ze względu na możliwość występowania danych osobowych.",
+      "applicationDate": "2026-09-23",
+      "decisionDate": "2026-11-02",
+      "decisionNumber": "1150/2026",
+      "status": "Decyzja odnotowana — wynik nieudostępniony w CSV",
+      "locality": "Jawczyce",
+      "street": "",
+      "municipality": "Ożarów Mazowiecki (miasto i obszar wiejski)",
+      "cadastralRegion": "143206_5.0005",
+      "parcelNumbers": [
+        "136/9"
+      ],
+      "parcelIds": [
+        "143206_5.0005.136/9"
+      ],
+      "category": "XXVI",
+      "sourceUrl": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_mazowieckie.zip",
+      "geometryStatus": "matched",
+      "geometryNote": "Potwierdzone obrysy ULDK: 1/1."
     },
     {
       "id": "notification:ST-MZ-OZ/ZGŁOSZENIE/7065/2026",
@@ -352,6 +424,30 @@
       "geometryNote": "Potwierdzone obrysy ULDK: 2/2."
     },
     {
+      "id": "permit:ST-MZ-OZ/WNIOSEK/28653/2026",
+      "kind": "decision",
+      "title": "Budowa — budynek mieszkalny",
+      "description": "Bezpieczny skrót rodzaju inwestycji. Swobodny opis GUNB pominięto ze względu na możliwość występowania danych osobowych.",
+      "applicationDate": "2026-09-14",
+      "decisionDate": "2026-10-16",
+      "decisionNumber": "1091/2026",
+      "status": "Decyzja odnotowana — wynik nieudostępniony w CSV",
+      "locality": "Duchnice",
+      "street": "",
+      "municipality": "Ożarów Mazowiecki (miasto i obszar wiejski)",
+      "cadastralRegion": "143206_5.0003",
+      "parcelNumbers": [
+        "289/2"
+      ],
+      "parcelIds": [
+        "143206_5.0003.289/2"
+      ],
+      "category": "XXVI",
+      "sourceUrl": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_mazowieckie.zip",
+      "geometryStatus": "matched",
+      "geometryNote": "Potwierdzone obrysy ULDK: 1/1."
+    },
+    {
       "id": "notification:ST-MZ-OZ/ZGŁOSZENIE/6752/2026",
       "kind": "notification",
       "title": "Budowa — infrastruktura elektroenergetyczna",
@@ -492,6 +588,32 @@
       "sourceUrl": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_mazowieckie.zip",
       "geometryStatus": "matched",
       "geometryNote": "Potwierdzone obrysy ULDK: 3/3."
+    },
+    {
+      "id": "permit:ST-MZ-OZ/WNIOSEK/28758/2026",
+      "kind": "decision",
+      "title": "Rozbiórka — budynek mieszkalny jednorodzinny",
+      "description": "Bezpieczny skrót rodzaju inwestycji. Swobodny opis GUNB pominięto ze względu na możliwość występowania danych osobowych.",
+      "applicationDate": "2026-09-04",
+      "decisionDate": "2026-11-06",
+      "decisionNumber": "819/2026",
+      "status": "Decyzja odnotowana — wynik nieudostępniony w CSV",
+      "locality": "Macierzysz",
+      "street": "",
+      "municipality": "Ożarów Mazowiecki (miasto i obszar wiejski)",
+      "cadastralRegion": "143206_5.0009",
+      "parcelNumbers": [
+        "173/5",
+        "173/6"
+      ],
+      "parcelIds": [
+        "143206_5.0009.173/5",
+        "143206_5.0009.173/6"
+      ],
+      "category": "I",
+      "sourceUrl": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_mazowieckie.zip",
+      "geometryStatus": "matched",
+      "geometryNote": "Potwierdzone obrysy ULDK: 2/2."
     },
     {
       "id": "permit:ST-MZ-OZ/WNIOSEK/27411/2026",
