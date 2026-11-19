@@ -1,8 +1,33 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-18T12:06:38Z",
+ "generatedAt": "2026-11-19T12:02:51Z",
  "since": "2026-10-03",
  "days": [
+  {
+   "date": "2026-11-19",
+   "permits": [
+    {
+     "id": "notification:ST-MZ-OZ/ZGŁOSZENIE/7505/2026",
+     "title": "Przebudowa — infrastruktura wodno-kanalizacyjna",
+     "kind": "notification",
+     "locality": "Bronisze"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/26482/2026",
+     "title": "Budowa — budynek mieszkalny",
+     "kind": "decision",
+     "locality": "Ożarów Mazowiecki"
+    }
+   ],
+   "investments": [
+    {
+     "id": "procurement:ocds-148610-d194d22a-fb10-4343-a896-cbc72385dd90",
+     "title": "Utworzenie strefy relaksu w Parku Ołtarzewskim w Gminie Ożarów Mazowiecki",
+     "recordType": "procurement",
+     "sourceId": "procurement"
+    }
+   ]
+  },
   {
    "date": "2026-11-18",
    "permits": [
