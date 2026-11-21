@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generatedAt": "2026-11-20T11:57:55.111089Z",
+  "generatedAt": "2026-11-21T11:28:53.688744Z",
   "features": [
     {
       "type": "Feature",
@@ -56568,6 +56568,65 @@
           "notification:ST-MZ-OZ/ZGŁOSZENIE/4303/2025"
         ],
         "sourceUrl": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=143206_5.0034.19%2F18&result=geom_wkt%2Cid&srid=4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.6956394462928,
+              52.1934072899086
+            ],
+            [
+              20.6955429107696,
+              52.1928308336913
+            ],
+            [
+              20.6955963148835,
+              52.1928273763526
+            ],
+            [
+              20.6955807537471,
+              52.1927075289679
+            ],
+            [
+              20.6955829486493,
+              52.1927073548745
+            ],
+            [
+              20.6960315312617,
+              52.1926798402202
+            ],
+            [
+              20.6959219681475,
+              52.1933049283369
+            ],
+            [
+              20.6959345297362,
+              52.1933715602232
+            ],
+            [
+              20.695937917027,
+              52.1933895445296
+            ],
+            [
+              20.6956394462928,
+              52.1934072899086
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "143206_5.0034.19/57",
+        "parcelNumber": "19/57",
+        "region": "0034",
+        "permitIds": [
+          "permit:ST-MZ-OZ/WNIOSEK/30177/2026"
+        ],
+        "sourceUrl": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=143206_5.0034.19%2F57&result=geom_wkt%2Cid&srid=4326"
       }
     },
     {

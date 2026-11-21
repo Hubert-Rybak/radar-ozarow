@@ -1,8 +1,27 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-20T12:04:47Z",
+ "generatedAt": "2026-11-21T11:35:26Z",
  "since": "2026-10-03",
  "days": [
+  {
+   "date": "2026-11-21",
+   "permits": [
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/30177/2026",
+     "title": "Zamierzenie — obiekt usługowy lub handlowy",
+     "kind": "decision",
+     "locality": "Józefów"
+    }
+   ],
+   "investments": [
+    {
+     "id": "municipal-news:57488",
+     "title": "Remont nawierzchni pętli Cm. Wolski – zmiany na linii nr 713",
+     "recordType": "news",
+     "sourceId": "municipal-news"
+    }
+   ]
+  },
   {
    "date": "2026-11-19",
    "permits": [
