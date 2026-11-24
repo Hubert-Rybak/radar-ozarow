@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-23T13:16:42.937462Z",
+  "generatedAt": "2026-11-24T14:00:28.887315Z",
   "source": {
     "name": "GUNB RWDZ",
     "url": "https://wyszukiwarka.gunb.gov.pl/pobranie.html",
-    "downloadedAt": "2026-11-23T13:14:47.932815Z",
-    "coverage": "Cała gmina Ożarów Mazowiecki (miasto i obszar wiejski): daty wpływu 2025-01-01–2026-11-23; faktyczne wpisy 2025-01-09–2026-11-06. Wnioski/decyzje: CSV mazowieckie; zgłoszenia: CSV krajowy od 2022. Obrysy ze stanu ULDK podczas pobrania (cache do 30 dni), nie historyczne."
+    "downloadedAt": "2026-11-24T13:58:30.341152Z",
+    "coverage": "Cała gmina Ożarów Mazowiecki (miasto i obszar wiejski): daty wpływu 2025-01-01–2026-11-24; faktyczne wpisy 2025-01-09–2026-11-06. Wnioski/decyzje: CSV mazowieckie; zgłoszenia: CSV krajowy od 2022. Obrysy ze stanu ULDK podczas pobrania (cache do 30 dni), nie historyczne."
   },
   "records": [
     {
@@ -1412,6 +1412,32 @@
       "sourceUrl": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_mazowieckie.zip",
       "geometryStatus": "matched",
       "geometryNote": "Potwierdzone obrysy ULDK: 1/1."
+    },
+    {
+      "id": "permit:ST-MZ-OZ/WNIOSEK/24616/2026",
+      "kind": "decision",
+      "title": "Budowa — obiekt magazynowy lub przemysłowy",
+      "description": "Bezpieczny skrót rodzaju inwestycji. Swobodny opis GUNB pominięto ze względu na możliwość występowania danych osobowych.",
+      "applicationDate": "2026-08-07",
+      "decisionDate": "2026-11-20",
+      "decisionNumber": "1239/2026",
+      "status": "Decyzja odnotowana — wynik nieudostępniony w CSV",
+      "locality": "Mory",
+      "street": "",
+      "municipality": "Ożarów Mazowiecki (miasto i obszar wiejski)",
+      "cadastralRegion": "143206_5.0011",
+      "parcelNumbers": [
+        "34/12",
+        "34/3"
+      ],
+      "parcelIds": [
+        "143206_5.0011.34/12",
+        "143206_5.0011.34/3"
+      ],
+      "category": "XVIII",
+      "sourceUrl": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_mazowieckie.zip",
+      "geometryStatus": "matched",
+      "geometryNote": "Potwierdzone obrysy ULDK: 2/2."
     },
     {
       "id": "permit:ST-MZ-OZ/WNIOSEK/24414/2026",

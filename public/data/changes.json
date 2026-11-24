@@ -1,8 +1,20 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-23T13:23:42Z",
+ "generatedAt": "2026-11-24T14:07:52Z",
  "since": "2026-10-03",
  "days": [
+  {
+   "date": "2026-11-24",
+   "permits": [
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/24616/2026",
+     "title": "Budowa — obiekt magazynowy lub przemysłowy",
+     "kind": "decision",
+     "locality": "Mory"
+    }
+   ],
+   "investments": []
+  },
   {
    "date": "2026-11-21",
    "permits": [

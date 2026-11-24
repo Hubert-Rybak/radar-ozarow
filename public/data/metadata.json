@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-23T13:16:42.937462Z",
-  "recordCount": 500,
-  "parcelCount": 920,
-  "matchedRecordCount": 419,
+  "generatedAt": "2026-11-24T14:00:28.887315Z",
+  "recordCount": 501,
+  "parcelCount": 922,
+  "matchedRecordCount": 420,
   "partialRecordCount": 31,
   "unresolvedRecordCount": 50,
-  "coverage": "Cała gmina Ożarów Mazowiecki (miasto i obszar wiejski): daty wpływu 2025-01-01–2026-11-23; faktyczne wpisy 2025-01-09–2026-11-06. Wnioski/decyzje: CSV mazowieckie; zgłoszenia: CSV krajowy od 2022. Obrysy ze stanu ULDK podczas pobrania (cache do 30 dni), nie historyczne.",
+  "coverage": "Cała gmina Ożarów Mazowiecki (miasto i obszar wiejski): daty wpływu 2025-01-01–2026-11-24; faktyczne wpisy 2025-01-09–2026-11-06. Wnioski/decyzje: CSV mazowieckie; zgłoszenia: CSV krajowy od 2022. Obrysy ze stanu ULDK podczas pobrania (cache do 30 dni), nie historyczne.",
   "warnings": [
     "Decyzja w CSV nie oznacza pozwolenia: eksport nie podaje wyniku rozstrzygnięcia. Wniosek i zgłoszenie są odrębnymi rodzajami wpisów.",
     "Powtarzające się wiersze działek połączono według identyfikatora systemowego GUNB; wniosek z odnotowaną decyzją to jeden wpis typu decyzja.",
@@ -31,30 +31,30 @@
     {
       "name": "GUNB permit",
       "url": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_mazowieckie.zip",
-      "downloadedAt": "2026-11-23T13:14:37.660273Z",
-      "sha256": "8e3968d278ab0b996d00f5028a315838cd30444d2d97c2704de8583dd468445b",
-      "byteCount": 46829398,
-      "httpLastModified": "Sun, 22 Nov 2026 22:35:08 GMT",
-      "httpETag": "\"2ca8f56-660e516ea81b9\""
+      "downloadedAt": "2026-11-24T13:58:15.119563Z",
+      "sha256": "0aa0b38003d5f59baacd5f061827f4ac4a6824a9f2aefef3f3b7a9c51626ebfa",
+      "byteCount": 46845347,
+      "httpLastModified": "Mon, 23 Nov 2026 22:35:07 GMT",
+      "httpETag": "\"2cacda3-660f934b6ef93\""
     },
     {
       "name": "GUNB notification",
       "url": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_zgloszenia_2022_up.zip",
-      "downloadedAt": "2026-11-23T13:14:47.932815Z",
-      "sha256": "8a2b56bc0f26b38efd43f411cfec48502b552d02b55b68590b0e05dd7ea602fa",
-      "byteCount": 26464138,
-      "httpLastModified": "Sun, 22 Nov 2026 22:36:05 GMT",
-      "httpETag": "\"193cf8a-660e51a4a46b9\""
+      "downloadedAt": "2026-11-24T13:58:30.341152Z",
+      "sha256": "c82b922e5fae571dd5dbe062c1d5558a660104a8d8f08e63fe05f327fdf7b366",
+      "byteCount": 26485218,
+      "httpLastModified": "Mon, 23 Nov 2026 22:36:05 GMT",
+      "httpETag": "\"19421e2-660f93821ef93\""
     }
   ],
   "dateRange": {
     "requestedStart": "2025-01-01",
-    "requestedEnd": "2026-11-23",
+    "requestedEnd": "2026-11-24",
     "actualStart": "2025-01-09",
     "actualEnd": "2026-11-06"
   },
   "kindCounts": {
-    "decision": 392,
+    "decision": 393,
     "notification": 108
   },
   "localityCounts": {
@@ -72,7 +72,7 @@
     "Leszno": 1,
     "Macierzysz": 22,
     "Michałówek": 1,
-    "Mory": 7,
+    "Mory": 8,
     "Myszczyn": 6,
     "Ołtarzew": 13,
     "Ożarów Mazowiecki": 139,
@@ -94,15 +94,15 @@
   },
   "rawStatistics": {
     "permit": {
-      "totalRows": 699499,
-      "scopedRows": 5678,
+      "totalRows": 699725,
+      "scopedRows": 5680,
       "dateFilteredRows": 4838,
       "invalidDateRows": 0,
       "missingIdRows": 0,
       "invalidParcelRows": 23
     },
     "notification": {
-      "totalRows": 955422,
+      "totalRows": 956274,
       "scopedRows": 968,
       "dateFilteredRows": 591,
       "invalidDateRows": 0,
@@ -111,17 +111,17 @@
     }
   },
   "geometryCoverage": {
-    "candidateParcelCount": 1014,
-    "attemptedParcelCount": 1014,
-    "confirmedParcelCount": 920,
+    "candidateParcelCount": 1016,
+    "attemptedParcelCount": 1016,
+    "confirmedParcelCount": 922,
     "failedParcelCount": 94,
     "unattemptedParcelCount": 0,
     "strategy": "newest applications first; full exact-ID validation",
     "maxParcels": 0,
-    "reusedParcelCount": 920,
-    "freshParcelCount": 0,
-    "downloadedAtStart": "2026-10-25T08:34:37.103819Z",
-    "downloadedAtEnd": "2026-11-21T11:26:22.543095Z"
+    "reusedParcelCount": 904,
+    "freshParcelCount": 18,
+    "downloadedAtStart": "2026-10-27T09:10:54.690140Z",
+    "downloadedAtEnd": "2026-11-24T13:59:21.956786Z"
   },
   "cadastralRegions": [
     {
@@ -454,5 +454,5 @@
     "rawSourceCacheShared": false,
     "maximumLossFraction": 0.2
   },
-  "publicEvidenceResponseCount": 966
+  "publicEvidenceResponseCount": 968
 }
