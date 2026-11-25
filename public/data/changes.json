@@ -1,8 +1,20 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-24T14:07:52Z",
+ "generatedAt": "2026-11-25T13:22:01Z",
  "since": "2026-10-03",
  "days": [
+  {
+   "date": "2026-11-25",
+   "permits": [
+    {
+     "id": "notification:ST-MZ-OZ/ZGŁOSZENIE/7574/2026",
+     "title": "Budowa — budynek mieszkalny",
+     "kind": "notification",
+     "locality": "Wolica"
+    }
+   ],
+   "investments": []
+  },
   {
    "date": "2026-11-24",
    "permits": [
