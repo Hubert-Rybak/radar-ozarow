@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-25T13:16:05.396334Z",
+  "generatedAt": "2026-11-26T12:55:15.735834Z",
   "recordCount": 502,
   "parcelCount": 923,
   "matchedRecordCount": 421,
   "partialRecordCount": 31,
   "unresolvedRecordCount": 50,
-  "coverage": "Cała gmina Ożarów Mazowiecki (miasto i obszar wiejski): daty wpływu 2025-01-01–2026-11-25; faktyczne wpisy 2025-01-09–2026-11-06. Wnioski/decyzje: CSV mazowieckie; zgłoszenia: CSV krajowy od 2022. Obrysy ze stanu ULDK podczas pobrania (cache do 30 dni), nie historyczne.",
+  "coverage": "Cała gmina Ożarów Mazowiecki (miasto i obszar wiejski): daty wpływu 2025-01-01–2026-11-26; faktyczne wpisy 2025-01-09–2026-11-06. Wnioski/decyzje: CSV mazowieckie; zgłoszenia: CSV krajowy od 2022. Obrysy ze stanu ULDK podczas pobrania (cache do 30 dni), nie historyczne.",
   "warnings": [
     "Decyzja w CSV nie oznacza pozwolenia: eksport nie podaje wyniku rozstrzygnięcia. Wniosek i zgłoszenie są odrębnymi rodzajami wpisów.",
     "Powtarzające się wiersze działek połączono według identyfikatora systemowego GUNB; wniosek z odnotowaną decyzją to jeden wpis typu decyzja.",
@@ -31,25 +31,25 @@
     {
       "name": "GUNB permit",
       "url": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_mazowieckie.zip",
-      "downloadedAt": "2026-11-25T13:13:34.971955Z",
-      "sha256": "5819fa9d795e69a864b708e21aad59a87b2c9628aff4a54bbb0d0183ea227e93",
-      "byteCount": 46859203,
-      "httpLastModified": "Tue, 24 Nov 2026 22:35:08 GMT",
-      "httpETag": "\"2cb03c3-6610d52938810\""
+      "downloadedAt": "2026-11-26T12:53:09.148874Z",
+      "sha256": "2caa0aea01203975546e13e48225795b0de7a2b332339a9ffc30eb04f850bca5",
+      "byteCount": 46876516,
+      "httpLastModified": "Wed, 25 Nov 2026 22:35:08 GMT",
+      "httpETag": "\"2cb4764-6612170764c92\""
     },
     {
       "name": "GUNB notification",
       "url": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_zgloszenia_2022_up.zip",
-      "downloadedAt": "2026-11-25T13:14:07.120310Z",
-      "sha256": "330ef487c339f6a90e5a529016c750b0c5ca1158a0681507ad5093f9052730dd",
-      "byteCount": 26506370,
-      "httpLastModified": "Tue, 24 Nov 2026 22:36:04 GMT",
-      "httpETag": "\"1947482-6610d55ec4830\""
+      "downloadedAt": "2026-11-26T12:53:17.797365Z",
+      "sha256": "a27f7b94e5c60200b46cf7d415f8b1b77c3fc91f9b2254a1e4641f69de273ac3",
+      "byteCount": 26528549,
+      "httpLastModified": "Wed, 25 Nov 2026 22:36:24 GMT",
+      "httpETag": "\"194cb25-6612174ff6e92\""
     }
   ],
   "dateRange": {
     "requestedStart": "2025-01-01",
-    "requestedEnd": "2026-11-25",
+    "requestedEnd": "2026-11-26",
     "actualStart": "2025-01-09",
     "actualEnd": "2026-11-06"
   },
@@ -94,7 +94,7 @@
   },
   "rawStatistics": {
     "permit": {
-      "totalRows": 699884,
+      "totalRows": 700107,
       "scopedRows": 5680,
       "dateFilteredRows": 4838,
       "invalidDateRows": 0,
@@ -102,7 +102,7 @@
       "invalidParcelRows": 23
     },
     "notification": {
-      "totalRows": 957250,
+      "totalRows": 958062,
       "scopedRows": 969,
       "dateFilteredRows": 591,
       "invalidDateRows": 0,
@@ -118,10 +118,10 @@
     "unattemptedParcelCount": 0,
     "strategy": "newest applications first; full exact-ID validation",
     "maxParcels": 0,
-    "reusedParcelCount": 922,
-    "freshParcelCount": 1,
-    "downloadedAtStart": "2026-10-27T09:10:54.690140Z",
-    "downloadedAtEnd": "2026-11-25T13:14:23.484355Z"
+    "reusedParcelCount": 912,
+    "freshParcelCount": 11,
+    "downloadedAtStart": "2026-10-28T09:52:10.782264Z",
+    "downloadedAtEnd": "2026-11-26T12:53:37.665280Z"
   },
   "cadastralRegions": [
     {
