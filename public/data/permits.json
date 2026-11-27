@@ -1,11 +1,11 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-26T12:55:15.735834Z",
+  "generatedAt": "2026-11-27T12:49:08.502246Z",
   "source": {
     "name": "GUNB RWDZ",
     "url": "https://wyszukiwarka.gunb.gov.pl/pobranie.html",
-    "downloadedAt": "2026-11-26T12:53:17.797365Z",
-    "coverage": "Cała gmina Ożarów Mazowiecki (miasto i obszar wiejski): daty wpływu 2025-01-01–2026-11-26; faktyczne wpisy 2025-01-09–2026-11-06. Wnioski/decyzje: CSV mazowieckie; zgłoszenia: CSV krajowy od 2022. Obrysy ze stanu ULDK podczas pobrania (cache do 30 dni), nie historyczne."
+    "downloadedAt": "2026-11-27T12:46:59.645914Z",
+    "coverage": "Cała gmina Ożarów Mazowiecki (miasto i obszar wiejski): daty wpływu 2025-01-01–2026-11-27; faktyczne wpisy 2025-01-09–2026-11-06. Wnioski/decyzje: CSV mazowieckie; zgłoszenia: CSV krajowy od 2022. Obrysy ze stanu ULDK podczas pobrania (cache do 30 dni), nie historyczne."
   },
   "records": [
     {
@@ -83,6 +83,30 @@
       "geometryNote": "Potwierdzone obrysy ULDK: 2/2."
     },
     {
+      "id": "permit:ST-MZ-OZ/WNIOSEK/33633/2026",
+      "kind": "decision",
+      "title": "Rozbiórka — obiekt garażowy lub gospodarczy",
+      "description": "Bezpieczny skrót rodzaju inwestycji. Swobodny opis GUNB pominięto ze względu na możliwość występowania danych osobowych.",
+      "applicationDate": "2026-10-23",
+      "decisionDate": "2026-10-26",
+      "decisionNumber": "785/2026",
+      "status": "Decyzja odnotowana — wynik nieudostępniony w CSV",
+      "locality": "Płochocin",
+      "street": "",
+      "municipality": "Ożarów Mazowiecki (miasto i obszar wiejski)",
+      "cadastralRegion": "143206_5.0019",
+      "parcelNumbers": [
+        "641/2"
+      ],
+      "parcelIds": [
+        "143206_5.0019.641/2"
+      ],
+      "category": "XXVI",
+      "sourceUrl": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_mazowieckie.zip",
+      "geometryStatus": "matched",
+      "geometryNote": "Potwierdzone obrysy ULDK: 1/1."
+    },
+    {
       "id": "permit:ST-MZ-OZ/WNIOSEK/33604/2026",
       "kind": "decision",
       "title": "Budowa — infrastruktura wodno-kanalizacyjna",
@@ -139,6 +163,28 @@
       "sourceUrl": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_zgloszenia_2022_up.zip",
       "geometryStatus": "matched",
       "geometryNote": "Potwierdzone obrysy ULDK: 1/1."
+    },
+    {
+      "id": "permit:ST-MZ-OZ/WNIOSEK/31963/2026",
+      "kind": "decision",
+      "title": "Rozbudowa — obiekt usługowy lub handlowy",
+      "description": "Bezpieczny skrót rodzaju inwestycji. Swobodny opis GUNB pominięto ze względu na możliwość występowania danych osobowych.",
+      "applicationDate": "2026-10-15",
+      "decisionDate": "2026-11-18",
+      "decisionNumber": "1229/2026",
+      "status": "Decyzja odnotowana — wynik nieudostępniony w CSV",
+      "locality": "Domaniewek",
+      "street": "",
+      "municipality": "Ożarów Mazowiecki (miasto i obszar wiejski)",
+      "cadastralRegion": "143206_5.0002",
+      "parcelNumbers": [
+        "38/1"
+      ],
+      "parcelIds": [],
+      "category": "I",
+      "sourceUrl": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_mazowieckie.zip",
+      "geometryStatus": "unresolved",
+      "geometryNote": "Potwierdzone obrysy ULDK: 0/1. Brak wiarygodnej odpowiedzi ULDK: 1 (możliwy podział działki, błąd źródła lub usługi)."
     },
     {
       "id": "notification:ST-MZ-OZ/ZGŁOSZENIE/7505/2026",
@@ -952,6 +998,30 @@
       "sourceUrl": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_zgloszenia_2022_up.zip",
       "geometryStatus": "matched",
       "geometryNote": "Potwierdzone obrysy ULDK: 4/4."
+    },
+    {
+      "id": "permit:ST-MZ-OZ/WNIOSEK/27231/2026",
+      "kind": "decision",
+      "title": "Budowa — budynek mieszkalny jednorodzinny",
+      "description": "Bezpieczny skrót rodzaju inwestycji. Swobodny opis GUNB pominięto ze względu na możliwość występowania danych osobowych.",
+      "applicationDate": "2026-08-31",
+      "decisionDate": "2026-11-24",
+      "decisionNumber": "1252/2026",
+      "status": "Decyzja odnotowana — wynik nieudostępniony w CSV",
+      "locality": "Pogroszew-Kolonia",
+      "street": "",
+      "municipality": "Ożarów Mazowiecki (miasto i obszar wiejski)",
+      "cadastralRegion": "143206_5.0017",
+      "parcelNumbers": [
+        "157/33"
+      ],
+      "parcelIds": [
+        "143206_5.0017.157/33"
+      ],
+      "category": "I",
+      "sourceUrl": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_mazowieckie.zip",
+      "geometryStatus": "matched",
+      "geometryNote": "Potwierdzone obrysy ULDK: 1/1."
     },
     {
       "id": "permit:ST-MZ-OZ/WNIOSEK/27077/2026",

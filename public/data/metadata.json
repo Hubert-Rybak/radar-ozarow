@@ -1,18 +1,18 @@
 {
-  "generatedAt": "2026-11-26T12:55:15.735834Z",
-  "recordCount": 502,
-  "parcelCount": 923,
-  "matchedRecordCount": 421,
+  "generatedAt": "2026-11-27T12:49:08.502246Z",
+  "recordCount": 505,
+  "parcelCount": 925,
+  "matchedRecordCount": 423,
   "partialRecordCount": 31,
-  "unresolvedRecordCount": 50,
-  "coverage": "Cała gmina Ożarów Mazowiecki (miasto i obszar wiejski): daty wpływu 2025-01-01–2026-11-26; faktyczne wpisy 2025-01-09–2026-11-06. Wnioski/decyzje: CSV mazowieckie; zgłoszenia: CSV krajowy od 2022. Obrysy ze stanu ULDK podczas pobrania (cache do 30 dni), nie historyczne.",
+  "unresolvedRecordCount": 51,
+  "coverage": "Cała gmina Ożarów Mazowiecki (miasto i obszar wiejski): daty wpływu 2025-01-01–2026-11-27; faktyczne wpisy 2025-01-09–2026-11-06. Wnioski/decyzje: CSV mazowieckie; zgłoszenia: CSV krajowy od 2022. Obrysy ze stanu ULDK podczas pobrania (cache do 30 dni), nie historyczne.",
   "warnings": [
     "Decyzja w CSV nie oznacza pozwolenia: eksport nie podaje wyniku rozstrzygnięcia. Wniosek i zgłoszenie są odrębnymi rodzajami wpisów.",
     "Powtarzające się wiersze działek połączono według identyfikatora systemowego GUNB; wniosek z odnotowaną decyzją to jeden wpis typu decyzja.",
     "CSV może zawierać błędy/nieaktualne numery działek; nie korygowano identyfikatorów według nazw miejscowości.",
     "Import obejmuje datę wpływu w wybranym zakresie, nie wszystkie decyzje wydane w tym okresie dla starszych wniosków; brak danych sprzed zakresu.",
     "W bieżącym wycinku CSV każdy wniosek ma odnotowaną decyzję; nie ma wpisów typu sam wniosek. Nie oznacza braku nierozpatrzonych wniosków w gminie — eksport CSV nie gwarantuje ich kompletności.",
-    "ULDK nie potwierdził 94 odwołań po ograniczonych próbach. Mogą to być zmienione działki, błędy CSV lub odpowiedzi usługi.",
+    "ULDK nie potwierdził 95 odwołań po ograniczonych próbach. Mogą to być zmienione działki, błędy CSV lub odpowiedzi usługi.",
     "Nieprawidłowe, obce lub niejednoznaczne odwołania katastralne: 40 wierszy CSV; zachowano wpisy wybrane po TERC bez zgadywania geometrii."
   ],
   "sources": [
@@ -31,35 +31,36 @@
     {
       "name": "GUNB permit",
       "url": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_mazowieckie.zip",
-      "downloadedAt": "2026-11-26T12:53:09.148874Z",
-      "sha256": "2caa0aea01203975546e13e48225795b0de7a2b332339a9ffc30eb04f850bca5",
-      "byteCount": 46876516,
-      "httpLastModified": "Wed, 25 Nov 2026 22:35:08 GMT",
-      "httpETag": "\"2cb4764-6612170764c92\""
+      "downloadedAt": "2026-11-27T12:46:48.315716Z",
+      "sha256": "3d34998e5abdada884a84a174a228c4c8762168e6dc6768b6cac9f09385e713a",
+      "byteCount": 46896125,
+      "httpLastModified": "Thu, 26 Nov 2026 22:35:07 GMT",
+      "httpETag": "\"2cb93fd-661358e3f4d5c\""
     },
     {
       "name": "GUNB notification",
       "url": "https://wyszukiwarka.gunb.gov.pl/pliki_pobranie/wynik_zgloszenia_2022_up.zip",
-      "downloadedAt": "2026-11-26T12:53:17.797365Z",
-      "sha256": "a27f7b94e5c60200b46cf7d415f8b1b77c3fc91f9b2254a1e4641f69de273ac3",
-      "byteCount": 26528549,
-      "httpLastModified": "Wed, 25 Nov 2026 22:36:24 GMT",
-      "httpETag": "\"194cb25-6612174ff6e92\""
+      "downloadedAt": "2026-11-27T12:46:59.645914Z",
+      "sha256": "3c6fa41d762825f09a4f53f4da64239893e014d035e5c34ac8bc0cf9cad5d010",
+      "byteCount": 26553999,
+      "httpLastModified": "Thu, 26 Nov 2026 22:36:04 GMT",
+      "httpETag": "\"1952e8f-66135919ee37c\""
     }
   ],
   "dateRange": {
     "requestedStart": "2025-01-01",
-    "requestedEnd": "2026-11-26",
+    "requestedEnd": "2026-11-27",
     "actualStart": "2025-01-09",
     "actualEnd": "2026-11-06"
   },
   "kindCounts": {
-    "decision": 393,
+    "decision": 396,
     "notification": 109
   },
   "localityCounts": {
     "Bronisze": 12,
     "Błonie": 1,
+    "Domaniewek": 1,
     "Duchnice": 41,
     "Gołaszew": 5,
     "Jawczyce": 19,
@@ -80,8 +81,8 @@
     "Piotrkówek Duży": 1,
     "Piotrkówek Mały": 5,
     "Pogroszew": 12,
-    "Pogroszew-Kolonia": 11,
-    "Płochocin": 47,
+    "Pogroszew-Kolonia": 12,
+    "Płochocin": 48,
     "Strzykuły": 11,
     "Szeligi": 14,
     "Truskaw": 1,
@@ -94,15 +95,15 @@
   },
   "rawStatistics": {
     "permit": {
-      "totalRows": 700107,
-      "scopedRows": 5680,
+      "totalRows": 700322,
+      "scopedRows": 5684,
       "dateFilteredRows": 4838,
       "invalidDateRows": 0,
       "missingIdRows": 0,
       "invalidParcelRows": 23
     },
     "notification": {
-      "totalRows": 958062,
+      "totalRows": 958987,
       "scopedRows": 969,
       "dateFilteredRows": 591,
       "invalidDateRows": 0,
@@ -111,17 +112,17 @@
     }
   },
   "geometryCoverage": {
-    "candidateParcelCount": 1017,
-    "attemptedParcelCount": 1017,
-    "confirmedParcelCount": 923,
-    "failedParcelCount": 94,
+    "candidateParcelCount": 1020,
+    "attemptedParcelCount": 1020,
+    "confirmedParcelCount": 925,
+    "failedParcelCount": 95,
     "unattemptedParcelCount": 0,
     "strategy": "newest applications first; full exact-ID validation",
     "maxParcels": 0,
-    "reusedParcelCount": 912,
-    "freshParcelCount": 11,
-    "downloadedAtStart": "2026-10-28T09:52:10.782264Z",
-    "downloadedAtEnd": "2026-11-26T12:53:37.665280Z"
+    "reusedParcelCount": 922,
+    "freshParcelCount": 3,
+    "downloadedAtStart": "2026-10-30T10:14:55.935789Z",
+    "downloadedAtEnd": "2026-11-27T12:47:25.273233Z"
   },
   "cadastralRegions": [
     {
@@ -378,6 +379,7 @@
     "143206_5.0001.328/2",
     "143206_5.0002.176/1",
     "143206_5.0002.180",
+    "143206_5.0002.38/1",
     "143206_5.0003.1/41",
     "143206_5.0003.19/11",
     "143206_5.0003.297/18",
@@ -454,5 +456,5 @@
     "rawSourceCacheShared": false,
     "maximumLossFraction": 0.2
   },
-  "publicEvidenceResponseCount": 969
+  "publicEvidenceResponseCount": 971
 }

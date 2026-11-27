@@ -1,8 +1,39 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-26T13:01:00Z",
+ "generatedAt": "2026-11-27T12:56:01Z",
  "since": "2026-10-03",
  "days": [
+  {
+   "date": "2026-11-27",
+   "permits": [
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/33633/2026",
+     "title": "Rozbiórka — obiekt garażowy lub gospodarczy",
+     "kind": "decision",
+     "locality": "Płochocin"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/31963/2026",
+     "title": "Rozbudowa — obiekt usługowy lub handlowy",
+     "kind": "decision",
+     "locality": "Domaniewek"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/27231/2026",
+     "title": "Budowa — budynek mieszkalny jednorodzinny",
+     "kind": "decision",
+     "locality": "Pogroszew-Kolonia"
+    }
+   ],
+   "investments": [
+    {
+     "id": "municipal-news:57557",
+     "title": "Utrudnienia w ruchu na ul. Partyzantów w Ożarowie Mazowieckim w związku z awarią na sieci wodociągowej",
+     "recordType": "news",
+     "sourceId": "municipal-news"
+    }
+   ]
+  },
   {
    "date": "2026-11-26",
    "permits": [],
