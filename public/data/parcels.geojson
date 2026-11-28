@@ -1,6 +1,6 @@
 {
   "type": "FeatureCollection",
-  "generatedAt": "2026-11-27T12:49:08.502246Z",
+  "generatedAt": "2026-11-28T12:02:24.703327Z",
   "features": [
     {
       "type": "Feature",
@@ -10677,6 +10677,45 @@
         "coordinates": [
           [
             [
+              20.7914396349584,
+              52.206925025258
+            ],
+            [
+              20.7915034802224,
+              52.20722452007
+            ],
+            [
+              20.790738850071,
+              52.2072442879619
+            ],
+            [
+              20.7906843643778,
+              52.2069777045056
+            ],
+            [
+              20.7914396349584,
+              52.206925025258
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "143206_4.0010.156",
+        "parcelNumber": "156",
+        "region": "0010",
+        "permitIds": [
+          "permit:ST-MZ-OZ/WNIOSEK/33628/2026"
+        ],
+        "sourceUrl": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=143206_4.0010.156&result=geom_wkt%2Cid&srid=4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
               20.7907859416536,
               52.2054409788772
             ],
@@ -12406,6 +12445,57 @@
           "notification:ST-MZ-OZ/ZGŁOSZENIE/8265/2026"
         ],
         "sourceUrl": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=143206_4.0011.77%2F34&result=geom_wkt%2Cid&srid=4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.838879493898,
+              52.2134855993191
+            ],
+            [
+              20.8388766952713,
+              52.2138142769839
+            ],
+            [
+              20.8386958284929,
+              52.2138196922042
+            ],
+            [
+              20.8387014650545,
+              52.2141621326091
+            ],
+            [
+              20.8384043108918,
+              52.2141171469642
+            ],
+            [
+              20.8383991581696,
+              52.213803288202
+            ],
+            [
+              20.8384112974994,
+              52.2134417282218
+            ],
+            [
+              20.838879493898,
+              52.2134855993191
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "143206_5.0001.29/6",
+        "parcelNumber": "29/6",
+        "region": "0001",
+        "permitIds": [
+          "permit:ST-MZ-OZ/WNIOSEK/33626/2026"
+        ],
+        "sourceUrl": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=143206_5.0001.29%2F6&result=geom_wkt%2Cid&srid=4326"
       }
     },
     {
@@ -17112,6 +17202,49 @@
           "notification:ST-MZ-OZ/ZGŁOSZENIE/6752/2026"
         ],
         "sourceUrl": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=143206_5.0003.584&result=geom_wkt%2Cid&srid=4326"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              20.7797268963605,
+              52.1919551148399
+            ],
+            [
+              20.7795249383969,
+              52.1924860051046
+            ],
+            [
+              20.7790979145916,
+              52.1924237300884
+            ],
+            [
+              20.7793220937626,
+              52.1918363489902
+            ],
+            [
+              20.7795093168376,
+              52.1918893673463
+            ],
+            [
+              20.7797268963605,
+              52.1919551148399
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "id": "143206_5.0003.59/4",
+        "parcelNumber": "59/4",
+        "region": "0003",
+        "permitIds": [
+          "permit:ST-MZ-OZ/WNIOSEK/35128/2026"
+        ],
+        "sourceUrl": "https://uldk.gugik.gov.pl/?request=GetParcelById&id=143206_5.0003.59%2F4&result=geom_wkt%2Cid&srid=4326"
       }
     },
     {

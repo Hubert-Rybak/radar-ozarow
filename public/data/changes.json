@@ -1,8 +1,32 @@
 {
  "schemaVersion": 1,
- "generatedAt": "2026-11-27T12:56:01Z",
+ "generatedAt": "2026-11-28T12:08:58Z",
  "since": "2026-10-03",
  "days": [
+  {
+   "date": "2026-11-28",
+   "permits": [
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/35128/2026",
+     "title": "Rozbiórka — budynek mieszkalny",
+     "kind": "decision",
+     "locality": "Duchnice"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/33628/2026",
+     "title": "Rozbiórka — budynek mieszkalny",
+     "kind": "decision",
+     "locality": "Ożarów Mazowiecki"
+    },
+    {
+     "id": "permit:ST-MZ-OZ/WNIOSEK/33626/2026",
+     "title": "Rozbiórka — obiekt budowlany",
+     "kind": "decision",
+     "locality": "Ożarów Mazowiecki"
+    }
+   ],
+   "investments": []
+  },
   {
    "date": "2026-11-27",
    "permits": [
